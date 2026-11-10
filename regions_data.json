@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_population": 68094280,
-    "total_candidates": 221,
+    "total_candidates": 283,
     "total_regions": 18,
-    "generated_date": "2026-11-10 14:22:50",
+    "generated_date": "2026-11-10 17:03:31",
     "data_source": "Donnees_KL.db (replaces Excel files)",
     "note": "Generated from database queries instead of Excel files"
   },
@@ -11,9 +11,9 @@
     "Auvergne-Rhône-Alpes": {
       "population_2023": 8205557,
       "population_percentage": 12.05,
-      "candidate_count": 28,
-      "candidate_percentage": 12.67,
-      "gap_percentage": 0.62,
+      "candidate_count": 33,
+      "candidate_percentage": 11.66,
+      "gap_percentage": -0.39,
       "candidates": [
         {
           "name": "Alexandra ",
@@ -36,12 +36,24 @@
           "season": "Armes Secrètes"
         },
         {
+          "name": "Candice",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Carole",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Cassandre",
           "season": "La Tribu Maudite"
         },
         {
           "name": "Clarisse",
           "season": "Reliques du destin"
+        },
+        {
+          "name": "Clémentine",
+          "season": "Cambodge"
         },
         {
           "name": "Cécile",
@@ -66,6 +78,10 @@
         {
           "name": "Grâce",
           "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Huw",
+          "season": "Thaïlande"
         },
         {
           "name": "Jean-Charles",
@@ -124,6 +140,10 @@
           "season": "Totem Maudit"
         },
         {
+          "name": "Sophie",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Sébastien",
           "season": "4 Terres"
         }
@@ -132,9 +152,9 @@
     "Bourgogne-Franche-Comté": {
       "population_2023": 2802670,
       "population_percentage": 4.12,
-      "candidate_count": 6,
-      "candidate_percentage": 2.71,
-      "gap_percentage": -1.4,
+      "candidate_count": 8,
+      "candidate_percentage": 2.83,
+      "gap_percentage": -1.29,
       "candidates": [
         {
           "name": "Bertrand-Kamal",
@@ -157,17 +177,25 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Jérôme",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Laure",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Sandrine",
+          "season": "Île au trésor"
         }
       ]
     },
     "Bretagne": {
       "population_2023": 3449370,
       "population_percentage": 5.07,
-      "candidate_count": 10,
-      "candidate_percentage": 4.52,
-      "gap_percentage": -0.54,
+      "candidate_count": 12,
+      "candidate_percentage": 4.24,
+      "gap_percentage": -0.83,
       "candidates": [
         {
           "name": "Aliséa",
@@ -178,8 +206,16 @@
           "season": "Guerre des Chefs"
         },
         {
+          "name": "Benoît",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Béatrice",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Céline",
+          "season": "Thaïlande"
         },
         {
           "name": "Guillaume",
@@ -215,8 +251,8 @@
       "population_2023": 2587031,
       "population_percentage": 3.8,
       "candidate_count": 5,
-      "candidate_percentage": 2.26,
-      "gap_percentage": -1.54,
+      "candidate_percentage": 1.77,
+      "gap_percentage": -2.03,
       "candidates": [
         {
           "name": "André",
@@ -244,8 +280,8 @@
       "population_2023": 355486,
       "population_percentage": 0.52,
       "candidate_count": 2,
-      "candidate_percentage": 0.9,
-      "gap_percentage": 0.38,
+      "candidate_percentage": 0.71,
+      "gap_percentage": 0.18,
       "candidates": [
         {
           "name": "Pauline",
@@ -260,10 +296,14 @@
     "Grand Est": {
       "population_2023": 5563378,
       "population_percentage": 8.17,
-      "candidate_count": 11,
-      "candidate_percentage": 4.98,
-      "gap_percentage": -3.19,
+      "candidate_count": 15,
+      "candidate_percentage": 5.3,
+      "gap_percentage": -2.87,
       "candidates": [
+        {
+          "name": "Amandine",
+          "season": "Île au trésor"
+        },
         {
           "name": "Anne-Sophie",
           "season": "Le Feu Sacré"
@@ -277,12 +317,24 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Franck",
+          "season": "Cambodge"
+        },
+        {
           "name": "Hadja",
           "season": "4 Terres"
         },
         {
           "name": "Lola",
           "season": "Reliques du destin"
+        },
+        {
+          "name": "Ludivine",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Marius",
+          "season": "Thaïlande"
         },
         {
           "name": "Maxime",
@@ -329,9 +381,9 @@
     "Hauts-de-France": {
       "population_2023": 5992194,
       "population_percentage": 8.8,
-      "candidate_count": 12,
-      "candidate_percentage": 5.43,
-      "gap_percentage": -3.37,
+      "candidate_count": 17,
+      "candidate_percentage": 6.01,
+      "gap_percentage": -2.79,
       "candidates": [
         {
           "name": "Allan",
@@ -354,6 +406,10 @@
           "season": "Le Feu Sacré"
         },
         {
+          "name": "Laurent",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Lola",
           "season": "4 Terres"
         },
@@ -366,16 +422,32 @@
           "season": "4 Terres"
         },
         {
+          "name": "Marjorie",
+          "season": "Cambodge"
+        },
+        {
           "name": "Mohamed",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Sabine",
+          "season": "Cambodge"
         },
         {
           "name": "Sébastien",
           "season": "Fidji"
         },
         {
+          "name": "Wendy",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Xavier",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Yannick",
+          "season": "Île au trésor"
         },
         {
           "name": "Élodie",
@@ -395,8 +467,8 @@
       "population_2023": 360630,
       "population_percentage": 0.53,
       "candidate_count": 2,
-      "candidate_percentage": 0.9,
-      "gap_percentage": 0.38,
+      "candidate_percentage": 0.71,
+      "gap_percentage": 0.18,
       "candidates": [
         {
           "name": "Alexandra",
@@ -419,9 +491,9 @@
     "Normandie": {
       "population_2023": 3345842,
       "population_percentage": 4.91,
-      "candidate_count": 9,
-      "candidate_percentage": 4.07,
-      "gap_percentage": -0.84,
+      "candidate_count": 10,
+      "candidate_percentage": 3.53,
+      "gap_percentage": -1.38,
       "candidates": [
         {
           "name": "Alexandre",
@@ -456,6 +528,10 @@
           "season": "Totem Maudit"
         },
         {
+          "name": "Sébastien",
+          "season": "Cambodge"
+        },
+        {
           "name": "Thomas",
           "season": "Fidji"
         }
@@ -464,10 +540,14 @@
     "Nouvelle-Aquitaine": {
       "population_2023": 6150451,
       "population_percentage": 9.03,
-      "candidate_count": 28,
-      "candidate_percentage": 12.67,
-      "gap_percentage": 3.64,
+      "candidate_count": 33,
+      "candidate_percentage": 11.66,
+      "gap_percentage": 2.63,
       "candidates": [
+        {
+          "name": "Alain",
+          "season": "Thaïlande"
+        },
         {
           "name": "Antonin",
           "season": "Reliques du destin"
@@ -533,6 +613,10 @@
           "season": "4 Terres"
         },
         {
+          "name": "Julie",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Jérôme",
           "season": "Revanche des 4 Terres"
         },
@@ -561,6 +645,10 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Nicolas",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Sandrine",
           "season": "Fidji"
         },
@@ -577,6 +665,14 @@
           "season": "La Tribu Maudite"
         },
         {
+          "name": "Vincent",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Yassin",
+          "season": "Cambodge"
+        },
+        {
           "name": "Émilie",
           "season": "Guerre des Chefs"
         }
@@ -585,9 +681,9 @@
     "Occitanie": {
       "population_2023": 6124653,
       "population_percentage": 8.99,
-      "candidate_count": 18,
-      "candidate_percentage": 8.14,
-      "gap_percentage": -0.85,
+      "candidate_count": 24,
+      "candidate_percentage": 8.48,
+      "gap_percentage": -0.51,
       "candidates": [
         {
           "name": "Alexis",
@@ -600,6 +696,18 @@
         {
           "name": "Aubin",
           "season": "4 Terres"
+        },
+        {
+          "name": "Carine",
+          "season": "Thaïlande"
+        },
+        {
+          "name": "Claire",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Corentin",
+          "season": "Cambodge"
         },
         {
           "name": "Cynthia",
@@ -618,8 +726,16 @@
           "season": "Reliques du destin"
         },
         {
+          "name": "Jesta",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Jonathan",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Julien",
+          "season": "Thaïlande"
         },
         {
           "name": "Jérôme",
@@ -658,6 +774,10 @@
           "season": "La Tribu Maudite"
         },
         {
+          "name": "Yves",
+          "season": "Cambodge"
+        },
+        {
           "name": "Émilie",
           "season": "Les Chasseurs d'Immunité"
         }
@@ -666,17 +786,29 @@
     "Pays de la Loire": {
       "population_2023": 3907156,
       "population_percentage": 5.74,
-      "candidate_count": 5,
-      "candidate_percentage": 2.26,
-      "gap_percentage": -3.48,
+      "candidate_count": 8,
+      "candidate_percentage": 2.83,
+      "gap_percentage": -2.91,
       "candidates": [
         {
           "name": "Benjamin",
           "season": "Totem Maudit"
         },
         {
+          "name": "Béryl",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Charlie",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Clo",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Mathilde",
+          "season": "Cambodge"
         },
         {
           "name": "Nathanaël",
@@ -695,9 +827,9 @@
     "Provence-Alpes-Côte d'Azur": {
       "population_2023": 5218960,
       "population_percentage": 7.66,
-      "candidate_count": 19,
-      "candidate_percentage": 8.6,
-      "gap_percentage": 0.93,
+      "candidate_count": 30,
+      "candidate_percentage": 10.6,
+      "gap_percentage": 2.94,
       "candidates": [
         {
           "name": "Adrien",
@@ -710,6 +842,10 @@
         {
           "name": "Angélique",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Bastien",
+          "season": "Cambodge"
         },
         {
           "name": "Benjamin",
@@ -736,6 +872,18 @@
           "season": "Armes Secrètes"
         },
         {
+          "name": "Frédéric",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Hada",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Jean-Luc",
+          "season": "Île au trésor"
+        },
+        {
           "name": "Jessica",
           "season": "Revanche des 4 Terres"
         },
@@ -744,8 +892,24 @@
           "season": "Reliques du destin"
         },
         {
+          "name": "Laureen",
+          "season": "Thaïlande"
+        },
+        {
+          "name": "Laurence",
+          "season": "Thaïlande"
+        },
+        {
+          "name": "Maria",
+          "season": "Cambodge"
+        },
+        {
           "name": "Mathieu",
           "season": "4 Terres"
+        },
+        {
+          "name": "Myriam",
+          "season": "Île au trésor"
         },
         {
           "name": "Mélissa",
@@ -756,12 +920,24 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Pascal",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Pauline",
           "season": "Totem Maudit"
         },
         {
+          "name": "Romain",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Steeve",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Stéphane",
+          "season": "Île au trésor"
         },
         {
           "name": "Tiffany",
@@ -780,13 +956,17 @@
     "Île-de-France": {
       "population_2023": 12463067,
       "population_percentage": 18.3,
-      "candidate_count": 43,
-      "candidate_percentage": 19.46,
-      "gap_percentage": 1.15,
+      "candidate_count": 58,
+      "candidate_percentage": 20.49,
+      "gap_percentage": 2.19,
       "candidates": [
         {
           "name": "Adrien",
           "season": "4 Terres"
+        },
+        {
+          "name": "Alexandra",
+          "season": "Île au trésor"
         },
         {
           "name": "Alexandre",
@@ -795,6 +975,10 @@
         {
           "name": "Alexandre",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Amir",
+          "season": "Thaïlande"
         },
         {
           "name": "Amri",
@@ -807,6 +991,18 @@
         {
           "name": "Ari",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Brahma",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Bruno",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Cassandre",
+          "season": "Thaïlande"
         },
         {
           "name": "Cindy",
@@ -825,8 +1021,16 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Cécilia",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Céline",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Freddy",
+          "season": "Île au trésor"
         },
         {
           "name": "Frédéric",
@@ -839,6 +1043,10 @@
         {
           "name": "Frédéric",
           "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Félicie",
+          "season": "Cambodge"
         },
         {
           "name": "Ilyesse",
@@ -857,6 +1065,26 @@
           "season": "Le Feu Sacré"
         },
         {
+          "name": "Jérémy",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Karima",
+          "season": "Thaïlande"
+        },
+        {
+          "name": "Kelly",
+          "season": "Cambodge"
+        },
+        {
+          "name": "Laurent",
+          "season": "Île au trésor"
+        },
+        {
+          "name": "Lolo",
+          "season": "Thaïlande"
+        },
+        {
           "name": "Louana",
           "season": "Totem Maudit"
         },
@@ -871,6 +1099,10 @@
         {
           "name": "Magalie",
           "season": "Fidji"
+        },
+        {
+          "name": "Manuella",
+          "season": "Cambodge"
         },
         {
           "name": "Marie",
@@ -931,6 +1163,10 @@
         {
           "name": "Sophia",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Steve",
+          "season": "Thaïlande"
         },
         {
           "name": "Stéphanie",

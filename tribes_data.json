@@ -1,0 +1,517 @@
+{
+  "departments": {
+    "Guadeloupe": {
+      "colors": [],
+      "fallback": null
+    },
+    "Martinique": {
+      "colors": [],
+      "fallback": null
+    },
+    "Guyane": {
+      "colors": [],
+      "fallback": null
+    },
+    "Réunion": {
+      "colors": [],
+      "fallback": null
+    },
+    "Essonne": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Seine-Saint-Denis": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Val-d'Oise": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Hauts-de-Seine": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Paris": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Yvelines": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Seine-et-Marne": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Val-de-Marne": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Marne": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Haute-Marne": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Aube": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Ardennes": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Aisne": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Oise": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Somme": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Eure": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Seine-Maritime": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Loiret": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Indre": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Loir-et-Cher": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Cher": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Indre-et-Loire": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Eure-et-Loir": {
+      "colors": [],
+      "fallback": "Violet"
+    },
+    "Calvados": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Orne": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Manche": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Nièvre": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Saône-et-Loire": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Yonne": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Côte-d'Or": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Pas-de-Calais": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Nord": {
+      "colors": [
+        "Violet"
+      ],
+      "fallback": null
+    },
+    "Meurthe-et-Moselle": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Moselle": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Vosges": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Meuse": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Bas-Rhin": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Haut-Rhin": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Territoire de Belfort": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Doubs": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Haute-Saône": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Jura": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Vendée": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Maine-et-Loire": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Loire-Atlantique": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Mayenne": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Sarthe": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Morbihan": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Finistère": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Côtes-d'Armor": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Ille-et-Vilaine": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Charente-Maritime": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Charente": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Vienne": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Deux-Sèvres": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Pyrénées-Atlantiques": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Landes": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Gironde": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Lot-et-Garonne": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Dordogne": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Tarn-et-Garonne": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Hautes-Pyrénées": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Aveyron": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Ariège": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Gers": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Haute-Garonne": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Tarn": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Lot": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Corrèze": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Haute-Vienne": {
+      "colors": [],
+      "fallback": "Orange"
+    },
+    "Creuse": {
+      "colors": [
+        "Orange"
+      ],
+      "fallback": null
+    },
+    "Ain": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Loire": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Ardèche": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Isère": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Savoie": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Rhône": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Drôme": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Haute-Savoie": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Allier": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Haute-Loire": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Cantal": {
+      "colors": [],
+      "fallback": "Vert"
+    },
+    "Puy-de-Dôme": {
+      "colors": [
+        "Vert"
+      ],
+      "fallback": null
+    },
+    "Hérault": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Gard": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Lozère": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Aude": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Pyrénées-Orientales": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Hautes-Alpes": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Bouches-du-Rhône": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Alpes-Maritimes": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Var": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Alpes-de-Haute-Provence": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Vaucluse": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    },
+    "Haute-Corse": {
+      "colors": [],
+      "fallback": "Bleu"
+    },
+    "Corse-du-Sud": {
+      "colors": [
+        "Bleu"
+      ],
+      "fallback": null
+    }
+  },
+  "regions": {
+    "Occitanie": [
+      "Bleu",
+      "Orange"
+    ],
+    "Hauts-de-France": [
+      "Violet"
+    ],
+    "Bourgogne-Franche-Comté": [
+      "Vert"
+    ],
+    "Pays de la Loire": [
+      "Orange"
+    ],
+    "Nouvelle-Aquitaine": [
+      "Orange"
+    ],
+    "Auvergne-Rhône-Alpes": [
+      "Bleu",
+      "Vert"
+    ],
+    "Corse": [
+      "Bleu"
+    ],
+    "Centre-Val de Loire": [
+      "Violet"
+    ],
+    "Provence-Alpes-Côte d'Azur": [
+      "Bleu"
+    ],
+    "Île-de-France": [
+      "Violet"
+    ],
+    "Grand Est": [
+      "Vert"
+    ],
+    "Bretagne": [
+      "Orange"
+    ],
+    "Normandie": [
+      "Orange"
+    ]
+  }
+}

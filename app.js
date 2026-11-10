@@ -304,6 +304,108 @@ function highlightRegionOnMap(name) {
 async function createMaps() {
     await createDeptMap();
     await createRegionMap();
+    await createTribeMaps();
+}
+
+const TRIBE_COLORS = {
+    Bleu: '#1f77b4',
+    Orange: '#ff7f0e',
+    Vert: '#2ca02c',
+    Violet: '#9467bd'
+};
+
+function ensureDefs(svg) {
+    let defs = svg.select('defs');
+    return defs.empty() ? svg.append('defs') : defs;
+}
+
+function hatchPattern(defs, colors) {
+    const id = `hatch-${colors.join('-')}`;
+    if (!defs.select(`#${id}`).empty()) return `url(#${id})`;
+    const size = 6;
+    const stripe = size / colors.length;
+    const pattern = defs.append('pattern')
+        .attr('id', id)
+        .attr('patternUnits', 'userSpaceOnUse')
+        .attr('width', size)
+        .attr('height', size)
+        .attr('patternTransform', 'rotate(45)');
+    colors.forEach((c, i) => {
+        pattern.append('rect')
+            .attr('x', i * stripe).attr('y', 0)
+            .attr('width', stripe).attr('height', size)
+            .attr('fill', TRIBE_COLORS[c]);
+    });
+    return `url(#${id})`;
+}
+
+function dotPattern(defs, color) {
+    const id = `dots-${color}`;
+    if (!defs.select(`#${id}`).empty()) return `url(#${id})`;
+    const pattern = defs.append('pattern')
+        .attr('id', id)
+        .attr('patternUnits', 'userSpaceOnUse')
+        .attr('width', 6)
+        .attr('height', 6);
+    pattern.append('rect').attr('width', 6).attr('height', 6).attr('fill', '#ffffff');
+    pattern.append('circle').attr('cx', 3).attr('cy', 3).attr('r', 1.5).attr('fill', TRIBE_COLORS[color]);
+    return `url(#${id})`;
+}
+
+async function createTribeMaps() {
+    try {
+        const [tribes, deptGeo, regGeo] = await Promise.all([
+            fetch('tribes_data.json').then(r => r.json()),
+            fetch('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson').then(r => r.json()),
+            fetch('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/regions.geojson').then(r => r.json())
+        ]);
+
+        renderTribeMap('map-tribe-dept', deptGeo, (name, defs) => {
+            const info = tribes.departments[name];
+            if (!info) return '#cccccc';
+            if (info.colors.length === 1) return TRIBE_COLORS[info.colors[0]];
+            if (info.colors.length > 1) return hatchPattern(defs, info.colors);
+            return info.fallback ? dotPattern(defs, info.fallback) : '#ffffff';
+        });
+
+        renderTribeMap('map-tribe-region', regGeo, (name, defs) => {
+            const colors = tribes.regions[name] || [];
+            if (colors.length === 0) return '#ffffff';
+            if (colors.length === 1) return TRIBE_COLORS[colors[0]];
+            return hatchPattern(defs, colors);
+        });
+    } catch (error) {
+        console.error('Error loading tribe maps:', error);
+    }
+}
+
+function renderTribeMap(containerId, geojson, fillFn) {
+    const container = document.getElementById(containerId);
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+
+    const svg = d3.select(`#${containerId}`)
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+    const defs = ensureDefs(svg);
+
+    const projection = d3.geoMercator().fitSize([width, height], geojson);
+    const pathGen = d3.geoPath().projection(projection);
+    const g = svg.append('g');
+
+    g.selectAll('path')
+        .data(geojson.features)
+        .enter()
+        .append('path')
+        .attr('d', pathGen)
+        .attr('fill', d => fillFn(d.properties.nom, defs))
+        .attr('stroke', '#666')
+        .attr('stroke-width', 0.5)
+        .append('title')
+        .text(d => d.properties.nom);
+
+    svg.call(d3.zoom().on('zoom', (event) => g.attr('transform', event.transform)));
 }
 
 async function createDeptMap() {

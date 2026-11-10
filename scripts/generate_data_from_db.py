@@ -14,6 +14,7 @@ PROJECT_DIR = Path(__file__).parent.parent
 DB_PATH = PROJECT_DIR / "Donnees_KL.db"
 OUTPUT_DEPT = PROJECT_DIR / "departments_data.json"
 OUTPUT_REGION = PROJECT_DIR / "regions_data.json"
+OUTPUT_TRIBES = PROJECT_DIR / "tribes_data.json"
 
 
 def generate_departments_data():
@@ -183,6 +184,58 @@ def generate_regions_data(dept_data):
     conn.close()
 
 
+def generate_tribe_data():
+    """Generate tribe colors per department/region for the '4 Terres' seasons."""
+    print("\nGenerating 4 Terres tribe data from database...")
+
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        SELECT d.nom_dept, r.nom_region, c.tribu
+        FROM Candidats c
+        JOIN Departements d ON c.id_dept = d.id_dept
+        JOIN Regions r ON d.id_region = r.id_region
+        WHERE c.saison LIKE '%4 Terres%' AND c.tribu IS NOT NULL
+    """)
+    dept_colors, region_colors = {}, {}
+    for dept, region, tribu in cursor.fetchall():
+        dept_colors.setdefault(dept, set()).add(tribu)
+        region_colors.setdefault(region, set()).add(tribu)
+
+    cursor.execute("""
+        SELECT d.nom_dept, r.nom_region
+        FROM Departements d JOIN Regions r ON d.id_region = r.id_region
+    """)
+    dept_region = dict(cursor.fetchall())
+    conn.close()
+
+    # Most used color among the departments of each region
+    region_counts = {}
+    for dept, colors in dept_colors.items():
+        counts = region_counts.setdefault(dept_region[dept], {})
+        for color in colors:
+            counts[color] = counts.get(color, 0) + 1
+
+    departments = {}
+    for dept, region in dept_region.items():
+        if dept in dept_colors:
+            departments[dept] = {"colors": sorted(dept_colors[dept]), "fallback": None}
+        else:
+            counts = region_counts.get(region)
+            fallback = max(sorted(counts), key=counts.get) if counts else None
+            departments[dept] = {"colors": [], "fallback": fallback}
+
+    regions = {name: sorted(colors) for name, colors in region_colors.items()}
+
+    output = {"departments": departments, "regions": regions}
+    with open(OUTPUT_TRIBES, 'w', encoding='utf-8') as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print(f"[OK] Generated {OUTPUT_TRIBES.name}")
+    return output
+
+
 def main():
     """Generate both datasets from database."""
     if not DB_PATH.exists():
@@ -197,6 +250,7 @@ def main():
         
         dept_data = generate_departments_data()
         generate_regions_data(dept_data)
+        generate_tribe_data()
         
         print("\n" + "=" * 60)
         print("[OK] Data generation complete!")

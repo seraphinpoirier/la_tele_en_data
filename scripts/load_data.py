@@ -114,7 +114,7 @@ def load_candidates_data():
     for row in ws.iter_rows(min_row=2, values_only=True):
         candidate = {
             'saison': row[headers.index('SAISON')],
-            'genre': row[headers.index('GENRE')],
+            'genre': (row[headers.index('GENRE')] or '').strip().upper() or None,
             'nom': row[headers.index('NOM')],
             'age': row[headers.index('AGE')],
             'departement': row[headers.index('DEPARTEMENT')],
@@ -140,6 +140,10 @@ def create_and_populate_database():
     regions_data, dept_region_map = load_regions_data()
     candidates_data = load_candidates_data()
     
+    # Rebuild from scratch so re-runs don't duplicate rows
+    if DB_PATH.exists():
+        DB_PATH.unlink()
+
     # Create database and load schema
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
