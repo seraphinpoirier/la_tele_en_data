@@ -1,0 +1,1672 @@
+{
+  "metadata": {
+    "total_population": 68094280,
+    "total_candidates": 221,
+    "total_departments": 100,
+    "generated_date": "2026-11-10 14:22:50",
+    "data_source": "Donnees_KL.db (replaces Excel files)",
+    "note": "Generated from database queries instead of Excel files"
+  },
+  "departments": {
+    "Ain": {
+      "population_2023": 679344,
+      "population_percentage": 1.0,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 1.26,
+      "candidates": [
+        {
+          "name": "Alexandra ",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Alicia",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Gaëlle",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Grâce",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Myriam",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Aisne": {
+      "population_2023": 523342,
+      "population_percentage": 0.77,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.77,
+      "candidates": []
+    },
+    "Allier": {
+      "population_2023": 333298,
+      "population_percentage": 0.49,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.42,
+      "candidates": [
+        {
+          "name": "Marine",
+          "season": "Fidji"
+        },
+        {
+          "name": "Océane",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Alpes-Maritimes": {
+      "population_2023": 1128418,
+      "population_percentage": 1.66,
+      "candidate_count": 6,
+      "candidate_percentage": 2.71,
+      "gap_percentage": 1.06,
+      "candidates": [
+        {
+          "name": "Angélique",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Flavio",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Pauline",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Steeve",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Yannick",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Zakariya",
+          "season": "Reliques du destin"
+        }
+      ]
+    },
+    "Alpes-de-Haute-Provence": {
+      "population_2023": 168054,
+      "population_percentage": 0.25,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.25,
+      "candidates": []
+    },
+    "Ardennes": {
+      "population_2023": 265893,
+      "population_percentage": 0.39,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.39,
+      "candidates": []
+    },
+    "Ardèche": {
+      "population_2023": 334231,
+      "population_percentage": 0.49,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.41,
+      "candidates": [
+        {
+          "name": "Fabrice",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Sébastien",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Ariège": {
+      "population_2023": 155722,
+      "population_percentage": 0.23,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.23,
+      "candidates": []
+    },
+    "Aube": {
+      "population_2023": 310447,
+      "population_percentage": 0.46,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.46,
+      "candidates": []
+    },
+    "Aude": {
+      "population_2023": 379648,
+      "population_percentage": 0.56,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.11,
+      "candidates": [
+        {
+          "name": "Émilie",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Aveyron": {
+      "population_2023": 279609,
+      "population_percentage": 0.41,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.04,
+      "candidates": [
+        {
+          "name": "Jonathan",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Bas-Rhin": {
+      "population_2023": 1163810,
+      "population_percentage": 1.71,
+      "candidate_count": 3,
+      "candidate_percentage": 1.36,
+      "gap_percentage": -0.35,
+      "candidates": [
+        {
+          "name": "David",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Mohamed",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Victor",
+          "season": "Guerre des Chefs"
+        }
+      ]
+    },
+    "Bouches-du-Rhône": {
+      "population_2023": 2087658,
+      "population_percentage": 3.07,
+      "candidate_count": 10,
+      "candidate_percentage": 4.52,
+      "gap_percentage": 1.46,
+      "candidates": [
+        {
+          "name": "Adrien",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Alix",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Benjamin",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Carole",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Caroline",
+          "season": "Fidji"
+        },
+        {
+          "name": "Clémence",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Jessica",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Johan",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Naïs",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Tiffany",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Calvados": {
+      "population_2023": 709441,
+      "population_percentage": 1.04,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 1.22,
+      "candidates": [
+        {
+          "name": "Aurélien",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Carinne",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Célia",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Dorian",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Jean",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Cantal": {
+      "population_2023": 144196,
+      "population_percentage": 0.21,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.21,
+      "candidates": []
+    },
+    "Charente": {
+      "population_2023": 352683,
+      "population_percentage": 0.52,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.07,
+      "candidates": [
+        {
+          "name": "Emmanuelle",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Charente-Maritime": {
+      "population_2023": 672279,
+      "population_percentage": 0.99,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": 0.82,
+      "candidates": [
+        {
+          "name": "Clémence",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Jacques",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Jody",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Laura",
+          "season": "Le Feu Sacré"
+        }
+      ]
+    },
+    "Cher": {
+      "population_2023": 298660,
+      "population_percentage": 0.44,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.44,
+      "candidates": []
+    },
+    "Corrèze": {
+      "population_2023": 240826,
+      "population_percentage": 0.35,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.35,
+      "candidates": []
+    },
+    "Corse-du-Sud": {
+      "population_2023": 168306,
+      "population_percentage": 0.25,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.21,
+      "candidates": [
+        {
+          "name": "Pauline",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Creuse": {
+      "population_2023": 115527,
+      "population_percentage": 0.17,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.28,
+      "candidates": [
+        {
+          "name": "Brice",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Côte-d'Or": {
+      "population_2023": 540100,
+      "population_percentage": 0.79,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.34,
+      "candidates": [
+        {
+          "name": "Bertrand-Kamal",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Côtes-d'Armor": {
+      "population_2023": 611859,
+      "population_percentage": 0.9,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.01,
+      "candidates": [
+        {
+          "name": "Aurélien",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Tugdual",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Deux-Sèvres": {
+      "population_2023": 375229,
+      "population_percentage": 0.55,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.55,
+      "candidates": []
+    },
+    "Dordogne": {
+      "population_2023": 417614,
+      "population_percentage": 0.61,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.16,
+      "candidates": [
+        {
+          "name": "Sandrine",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Doubs": {
+      "population_2023": 547163,
+      "population_percentage": 0.8,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.1,
+      "candidates": [
+        {
+          "name": "Hervé",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Laure",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Drôme": {
+      "population_2023": 524207,
+      "population_percentage": 0.77,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.32,
+      "candidates": [
+        {
+          "name": "Pierre-Marie",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Essonne": {
+      "population_2023": 1338485,
+      "population_percentage": 1.97,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -1.06,
+      "candidates": [
+        {
+          "name": "Julie",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "William",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Eure": {
+      "population_2023": 602714,
+      "population_percentage": 0.89,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.89,
+      "candidates": []
+    },
+    "Eure-et-Loir": {
+      "population_2023": 433129,
+      "population_percentage": 0.64,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.18,
+      "candidates": [
+        {
+          "name": "Esteban",
+          "season": "Le Feu Sacré"
+        }
+      ]
+    },
+    "Finistère": {
+      "population_2023": 933455,
+      "population_percentage": 1.37,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.92,
+      "candidates": [
+        {
+          "name": "Maël",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Gard": {
+      "population_2023": 770940,
+      "population_percentage": 1.13,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -0.23,
+      "candidates": [
+        {
+          "name": "Hugo",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Nicolas",
+          "season": "Totem Maudit"
+        }
+      ]
+    },
+    "Gers": {
+      "population_2023": 192645,
+      "population_percentage": 0.28,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.17,
+      "candidates": [
+        {
+          "name": "Aubin",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Gironde": {
+      "population_2023": 1690493,
+      "population_percentage": 2.48,
+      "candidate_count": 9,
+      "candidate_percentage": 4.07,
+      "gap_percentage": 1.59,
+      "candidates": [
+        {
+          "name": "Antonin",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Caroline",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Christine",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Cindy",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Daniel",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Marie",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Sylviane",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Vanessa",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Émilie",
+          "season": "Guerre des Chefs"
+        }
+      ]
+    },
+    "Guadeloupe": {
+      "population_2023": 384160,
+      "population_percentage": 0.56,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.56,
+      "candidates": []
+    },
+    "Guyane": {
+      "population_2023": 293996,
+      "population_percentage": 0.43,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.43,
+      "candidates": []
+    },
+    "Haut-Rhin": {
+      "population_2023": 770738,
+      "population_percentage": 1.13,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -1.13,
+      "candidates": []
+    },
+    "Haute-Corse": {
+      "population_2023": 187180,
+      "population_percentage": 0.27,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.18,
+      "candidates": [
+        {
+          "name": "Sarah",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Haute-Garonne": {
+      "population_2023": 1471468,
+      "population_percentage": 2.16,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -1.26,
+      "candidates": [
+        {
+          "name": "May",
+          "season": "Fidji"
+        },
+        {
+          "name": "Pauline",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Haute-Loire": {
+      "population_2023": 228654,
+      "population_percentage": 0.34,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.34,
+      "candidates": []
+    },
+    "Haute-Marne": {
+      "population_2023": 168331,
+      "population_percentage": 0.25,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.25,
+      "candidates": []
+    },
+    "Haute-Savoie": {
+      "population_2023": 861158,
+      "population_percentage": 1.26,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 1.0,
+      "candidates": [
+        {
+          "name": "Clarisse",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Cécile",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Gabin",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Lionel",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Paul",
+          "season": "Reliques du destin"
+        }
+      ]
+    },
+    "Haute-Saône": {
+      "population_2023": 233185,
+      "population_percentage": 0.34,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.11,
+      "candidates": [
+        {
+          "name": "Cécile",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Haute-Vienne": {
+      "population_2023": 373167,
+      "population_percentage": 0.55,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.55,
+      "candidates": []
+    },
+    "Hautes-Alpes": {
+      "population_2023": 143467,
+      "population_percentage": 0.21,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.21,
+      "candidates": []
+    },
+    "Hautes-Pyrénées": {
+      "population_2023": 231349,
+      "population_percentage": 0.34,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.34,
+      "candidates": []
+    },
+    "Hauts-de-Seine": {
+      "population_2023": 1654712,
+      "population_percentage": 2.43,
+      "candidate_count": 10,
+      "candidate_percentage": 4.52,
+      "gap_percentage": 2.09,
+      "candidates": [
+        {
+          "name": "Angélique",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Ari",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Cécile",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Frédéric",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Frédéric",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Louana",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Léa",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Meïssa",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Samuel",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Sophia",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Hérault": {
+      "population_2023": 1230289,
+      "population_percentage": 1.81,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": 0.0,
+      "candidates": [
+        {
+          "name": "Ambre",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "François",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Léa",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Magali",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Ille-et-Vilaine": {
+      "population_2023": 1120666,
+      "population_percentage": 1.65,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 0.62,
+      "candidates": [
+        {
+          "name": "Aliséa",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Béatrice",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Lili",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Marvyn",
+          "season": "Fidji"
+        },
+        {
+          "name": "Noémie",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Indre": {
+      "population_2023": 216069,
+      "population_percentage": 0.32,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.32,
+      "candidates": []
+    },
+    "Indre-et-Loire": {
+      "population_2023": 619362,
+      "population_percentage": 0.91,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.46,
+      "candidates": [
+        {
+          "name": "Romain",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Isère": {
+      "population_2023": 1298990,
+      "population_percentage": 1.91,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -1.0,
+      "candidates": [
+        {
+          "name": "Laurent",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Louise",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Jura": {
+      "population_2023": 257973,
+      "population_percentage": 0.38,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.07,
+      "candidates": [
+        {
+          "name": "Christian",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Landes": {
+      "population_2023": 433570,
+      "population_percentage": 0.64,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": 1.17,
+      "candidates": [
+        {
+          "name": "Chloé",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Jérôme",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Karine",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Laëtitia",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Loir-et-Cher": {
+      "population_2023": 328543,
+      "population_percentage": 0.48,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.48,
+      "candidates": []
+    },
+    "Loire": {
+      "population_2023": 774133,
+      "population_percentage": 1.14,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -0.23,
+      "candidates": [
+        {
+          "name": "Candice",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Jean-Charles",
+          "season": "Totem Maudit"
+        }
+      ]
+    },
+    "Loire-Atlantique": {
+      "population_2023": 1487570,
+      "population_percentage": 2.18,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": -0.37,
+      "candidates": [
+        {
+          "name": "Benjamin",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Nathanaël",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Romane",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Sarah",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Loiret": {
+      "population_2023": 691268,
+      "population_percentage": 1.02,
+      "candidate_count": 3,
+      "candidate_percentage": 1.36,
+      "gap_percentage": 0.34,
+      "candidates": [
+        {
+          "name": "André",
+          "season": "Fidji"
+        },
+        {
+          "name": "Andréa",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Delphine",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Lot": {
+      "population_2023": 176473,
+      "population_percentage": 0.26,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.19,
+      "candidates": [
+        {
+          "name": "Alexis",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Lot-et-Garonne": {
+      "population_2023": 333602,
+      "population_percentage": 0.49,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.04,
+      "candidates": [
+        {
+          "name": "Mehdi",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Lozère": {
+      "population_2023": 76486,
+      "population_percentage": 0.11,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.11,
+      "candidates": []
+    },
+    "Maine-et-Loire": {
+      "population_2023": 833776,
+      "population_percentage": 1.22,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.77,
+      "candidates": [
+        {
+          "name": "Clo",
+          "season": "Guerre des Chefs"
+        }
+      ]
+    },
+    "Manche": {
+      "population_2023": 497522,
+      "population_percentage": 0.73,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.73,
+      "candidates": []
+    },
+    "Marne": {
+      "population_2023": 563076,
+      "population_percentage": 0.83,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.37,
+      "candidates": [
+        {
+          "name": "Hadja",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Martinique": {
+      "population_2023": 360630,
+      "population_percentage": 0.53,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.38,
+      "candidates": [
+        {
+          "name": "Alexandra",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Lola",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Mayenne": {
+      "population_2023": 305468,
+      "population_percentage": 0.45,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.45,
+      "candidates": []
+    },
+    "Meurthe-et-Moselle": {
+      "population_2023": 732236,
+      "population_percentage": 1.08,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.62,
+      "candidates": [
+        {
+          "name": "Anne-Sophie",
+          "season": "Le Feu Sacré"
+        }
+      ]
+    },
+    "Meuse": {
+      "population_2023": 180290,
+      "population_percentage": 0.26,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.26,
+      "candidates": []
+    },
+    "Morbihan": {
+      "population_2023": 783390,
+      "population_percentage": 1.15,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -0.25,
+      "candidates": [
+        {
+          "name": "Guillaume",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Géraldine",
+          "season": "Totem Maudit"
+        }
+      ]
+    },
+    "Moselle": {
+      "population_2023": 1051309,
+      "population_percentage": 1.54,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": 0.27,
+      "candidates": [
+        {
+          "name": "Arnaud",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Lola",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Mégane",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Quentin",
+          "season": "Le Feu Sacré"
+        }
+      ]
+    },
+    "Nièvre": {
+      "population_2023": 201417,
+      "population_percentage": 0.3,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.16,
+      "candidates": [
+        {
+          "name": "Julie",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Nord": {
+      "population_2023": 2615635,
+      "population_percentage": 3.84,
+      "candidate_count": 9,
+      "candidate_percentage": 4.07,
+      "gap_percentage": 0.23,
+      "candidates": [
+        {
+          "name": "Allan",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Fabrice",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Fouzi",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Gilles",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Marguerite",
+          "season": "Fidji"
+        },
+        {
+          "name": "Marie-France",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Mohamed",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Sébastien",
+          "season": "Fidji"
+        },
+        {
+          "name": "Élodie",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Oise": {
+      "population_2023": 829899,
+      "population_percentage": 1.22,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.77,
+      "candidates": [
+        {
+          "name": "Xavier",
+          "season": "Guerre des Chefs"
+        }
+      ]
+    },
+    "Orne": {
+      "population_2023": 275201,
+      "population_percentage": 0.4,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.4,
+      "candidates": []
+    },
+    "Paris": {
+      "population_2023": 2103778,
+      "population_percentage": 3.09,
+      "candidate_count": 13,
+      "candidate_percentage": 5.88,
+      "gap_percentage": 2.79,
+      "candidates": [
+        {
+          "name": "Adrien",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Alexandre",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Cyril",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Jonathan",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Marie",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Mattéo",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Maxim",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Maxime",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Nathalie",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Olga",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Shanice",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Stéphanie",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Vincent",
+          "season": "Armes Secrètes"
+        }
+      ]
+    },
+    "Pas-de-Calais": {
+      "population_2023": 1457905,
+      "population_percentage": 2.14,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -1.24,
+      "candidates": [
+        {
+          "name": "Frédéric",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Lola",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Puy-de-Dôme": {
+      "population_2023": 664453,
+      "population_percentage": 0.98,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.52,
+      "candidates": [
+        {
+          "name": "Benoît",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Pyrénées-Atlantiques": {
+      "population_2023": 706564,
+      "population_percentage": 1.04,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 1.22,
+      "candidates": [
+        {
+          "name": "Brice",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Diane",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Franck",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "François",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Sébastien",
+          "season": "Les Chasseurs d'Immunité"
+        }
+      ]
+    },
+    "Pyrénées-Orientales": {
+      "population_2023": 496855,
+      "population_percentage": 0.73,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": 1.08,
+      "candidates": [
+        {
+          "name": "Jérôme",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Ricky",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Steve",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Ugo",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Rhône": {
+      "population_2023": 1914667,
+      "population_percentage": 2.81,
+      "candidate_count": 6,
+      "candidate_percentage": 2.71,
+      "gap_percentage": -0.1,
+      "candidates": [
+        {
+          "name": "Bastien",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Cassandre",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Joaquina",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Maxime",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Maxime",
+          "season": "Fidji"
+        },
+        {
+          "name": "Setha",
+          "season": "Totem Maudit"
+        }
+      ]
+    },
+    "Réunion": {
+      "population_2023": 889679,
+      "population_percentage": 1.31,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -1.31,
+      "candidates": []
+    },
+    "Sarthe": {
+      "population_2023": 566733,
+      "population_percentage": 0.83,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.83,
+      "candidates": []
+    },
+    "Savoie": {
+      "population_2023": 448226,
+      "population_percentage": 0.66,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.25,
+      "candidates": [
+        {
+          "name": "Céline",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Loïc ",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Saône-et-Loire": {
+      "population_2023": 550310,
+      "population_percentage": 0.81,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.81,
+      "candidates": []
+    },
+    "Seine-Maritime": {
+      "population_2023": 1260964,
+      "population_percentage": 1.85,
+      "candidate_count": 4,
+      "candidate_percentage": 1.81,
+      "gap_percentage": -0.04,
+      "candidates": [
+        {
+          "name": "Alexandre",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Estelle",
+          "season": "4 Terres"
+        },
+        {
+          "name": "Jean-Philippe",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Thomas",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Seine-Saint-Denis": {
+      "population_2023": 1704316,
+      "population_percentage": 2.5,
+      "candidate_count": 7,
+      "candidate_percentage": 3.17,
+      "gap_percentage": 0.66,
+      "candidates": [
+        {
+          "name": "Alexandre",
+          "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Amri",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Ilyesse",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Joana",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Magalie",
+          "season": "Fidji"
+        },
+        {
+          "name": "Tania",
+          "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Ulrich",
+          "season": "Reliques du destin"
+        }
+      ]
+    },
+    "Seine-et-Marne": {
+      "population_2023": 1468108,
+      "population_percentage": 2.16,
+      "candidate_count": 3,
+      "candidate_percentage": 1.36,
+      "gap_percentage": -0.8,
+      "candidates": [
+        {
+          "name": "Céline",
+          "season": "Totem Maudit"
+        },
+        {
+          "name": "Frédéric",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Mel",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Somme": {
+      "population_2023": 565413,
+      "population_percentage": 0.83,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.83,
+      "candidates": []
+    },
+    "Tarn": {
+      "population_2023": 397352,
+      "population_percentage": 0.58,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -0.13,
+      "candidates": [
+        {
+          "name": "Cynthia",
+          "season": "Reliques du destin"
+        }
+      ]
+    },
+    "Tarn-et-Garonne": {
+      "population_2023": 265817,
+      "population_percentage": 0.39,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": 0.06,
+      "candidates": [
+        {
+          "name": "Cynthiana",
+          "season": "Revanche des 4 Terres"
+        }
+      ]
+    },
+    "Territoire de Belfort": {
+      "population_2023": 140255,
+      "population_percentage": 0.21,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.21,
+      "candidates": []
+    },
+    "Val-d'Oise": {
+      "population_2023": 1281653,
+      "population_percentage": 1.88,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -1.43,
+      "candidates": [
+        {
+          "name": "Cindy",
+          "season": "Reliques du destin"
+        }
+      ]
+    },
+    "Val-de-Marne": {
+      "population_2023": 1426929,
+      "population_percentage": 2.1,
+      "candidate_count": 5,
+      "candidate_percentage": 2.26,
+      "gap_percentage": 0.17,
+      "candidates": [
+        {
+          "name": "Claire",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Lucie",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Maud",
+          "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Maxine",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Rudy",
+          "season": "Le Feu Sacré"
+        }
+      ]
+    },
+    "Var": {
+      "population_2023": 1119307,
+      "population_percentage": 1.64,
+      "candidate_count": 1,
+      "candidate_percentage": 0.45,
+      "gap_percentage": -1.19,
+      "candidates": [
+        {
+          "name": "Mélissa",
+          "season": "La Tribu Maudite"
+        }
+      ]
+    },
+    "Vaucluse": {
+      "population_2023": 572056,
+      "population_percentage": 0.84,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.06,
+      "candidates": [
+        {
+          "name": "Frédéric",
+          "season": "Armes Secrètes"
+        },
+        {
+          "name": "Mathieu",
+          "season": "4 Terres"
+        }
+      ]
+    },
+    "Vendée": {
+      "population_2023": 713609,
+      "population_percentage": 1.05,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -1.05,
+      "candidates": []
+    },
+    "Vienne": {
+      "population_2023": 438897,
+      "population_percentage": 0.64,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.26,
+      "candidates": [
+        {
+          "name": "Aurélien",
+          "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Maxime",
+          "season": "Guerre des Chefs"
+        }
+      ]
+    },
+    "Vosges": {
+      "population_2023": 357248,
+      "population_percentage": 0.52,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": 0.38,
+      "candidates": [
+        {
+          "name": "Maxime",
+          "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Théotime",
+          "season": "Fidji"
+        }
+      ]
+    },
+    "Yonne": {
+      "population_2023": 332267,
+      "population_percentage": 0.49,
+      "candidate_count": 0,
+      "candidate_percentage": 0.0,
+      "gap_percentage": -0.49,
+      "candidates": []
+    },
+    "Yvelines": {
+      "population_2023": 1485086,
+      "population_percentage": 2.18,
+      "candidate_count": 2,
+      "candidate_percentage": 0.9,
+      "gap_percentage": -1.28,
+      "candidates": [
+        {
+          "name": "Nora",
+          "season": "Reliques du destin"
+        },
+        {
+          "name": "Thomas",
+          "season": "Armes Secrètes"
+        }
+      ]
+    }
+  }
+}

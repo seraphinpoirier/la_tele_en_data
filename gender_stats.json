@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "generated": true
+  },
+  "stats": {
+    "overall": {
+      "H": 110,
+      "F": 111,
+      "total": 221
+    },
+    "ori": {
+      "H": 24,
+      "F": 25,
+      "total": 49
+    },
+    "pot": {
+      "H": 16,
+      "F": 15,
+      "total": 31
+    },
+    "place": {
+      "H": 5,
+      "F": 6,
+      "total": 11
+    }
+  }
+}

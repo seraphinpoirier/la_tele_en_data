@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koh-Lanta en chiffres</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8f5e9 50%, #f5f5f5 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2d7d4f 0%, #1b5e3f 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(45, 125, 79, 0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 5px solid #2d7d4f;
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: #2d7d4f;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-description {
+            color: #666;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+            font-style: italic;
+            padding: 10px;
+            background: #f0f8f5;
+            border-radius: 6px;
+            border-left: 3px solid #4caf50;
+        }
+
+        .maps-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .map-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map-item h3 {
+            font-size: 1.2em;
+            color: #2d7d4f;
+            margin-bottom: 10px;
+        }
+
+        .map-wrapper {
+            flex: 1;
+            display: flex;
+            gap: 20px;
+            min-height: 600px;
+        }
+
+        #map-dept, #map-region {
+            flex: 2;
+            border-radius: 8px;
+            background: #f0f0f0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            min-height: 600px;
+            min-width: 400px;
+        }
+
+        #map-dept svg, #map-region svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        .department {
+            stroke: #999;
+            stroke-width: 0.5px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .department:hover {
+            stroke: #2d7d4f;
+            stroke-width: 1.5px;
+            filter: brightness(0.95);
+        }
+
+        .region {
+            stroke: #999;
+            stroke-width: 0.5px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .region:hover {
+            stroke: #2d7d4f;
+            stroke-width: 1.5px;
+            filter: brightness(0.95);
+        }
+
+        .sidebars {
+            flex: 0 0 900px;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            max-height: 600px;
+        }
+
+        .sidebar {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            flex: 1 1 280px;
+            min-height: 200px;
+            max-height: 600px;
+            border-top: 3px solid #2d7d4f;
+        }
+
+        .sidebar h3 {
+            font-size: 1em;
+            color: #2d7d4f;
+            margin-bottom: 12px;
+            font-weight: 600;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .legend {
+            font-size: 0.85em;
+        }
+
+        .legend h4 {
+            font-size: 0.9em;
+            margin-top: 10px;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 2px;
+            margin-right: 8px;
+            border: 1px solid #999;
+            flex-shrink: 0;
+        }
+
+        .legend-item span {
+            font-size: 0.85em;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px solid #e8e8e8;
+            gap: 10px;
+            font-size: 0.85em;
+        }
+
+        .info-row:last-of-type {
+            border-bottom: none;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #555;
+            flex-shrink: 0;
+        }
+
+        .value {
+            color: #333;
+            text-align: right;
+        }
+
+        .candidates-list {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 2px solid #2d7d4f;
+        }
+
+        .candidates-list h4 {
+            color: #2d7d4f;
+            font-size: 0.85em;
+            margin-bottom: 6px;
+        }
+
+        .candidate-name {
+            padding: 2px 0;
+            font-size: 0.8em;
+            color: #555;
+        }
+
+        .placeholder {
+            color: #999;
+            font-style: italic;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .dept-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            font-size: 0.8em;
+            overflow-y: visible;
+        }
+
+        .dept-item {
+            padding: 8px;
+            background: #f9f9f9;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 3px solid transparent;
+        }
+
+        .dept-item.locked {
+            background: #fff3e0;
+            border-left-color: #d73027;
+        }
+
+        .dept-item:hover {
+            background: #f0f8f5;
+            border-left-color: #2d7d4f;
+            padding-left: 12px;
+        }
+
+        .dept-name {
+            font-weight: 500;
+            color: #2d7d4f;
+        }
+
+        .dept-gap {
+            font-size: 0.75em;
+            color: #666;
+        }
+
+        .dept-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            border: 1px solid #999;
+        }
+
+        .gender-charts-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .gender-chart {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e0e0e0;
+        }
+
+        .gender-chart h3 {
+            font-size: 1.1em;
+            color: #2d7d4f;
+            margin-bottom: 15px;
+        }
+
+        .chart-bars {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 200px;
+            margin-bottom: 15px;
+            gap: 20px;
+        }
+
+        .bar-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .bar {
+            width: 50px;
+            background: linear-gradient(180deg, #2d7d4f 0%, #1b5e3f 100%);
+            border-radius: 4px 4px 0 0;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .bar.female {
+            background: linear-gradient(180deg, #e74c3c 0%, #c0392b 100%);
+        }
+
+        .bar:hover {
+            filter: brightness(1.1);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .bar-label {
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        .bar-count {
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        .chart-stats {
+            text-align: left;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+        }
+
+        .chart-stats div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .chart-stats strong {
+            color: #2d7d4f;
+        }
+
+        .footer {
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        @media (max-width: 1400px) {
+            .maps-container {
+                flex-direction: column;
+            }
+
+            .map-wrapper {
+                flex-direction: column;
+            }
+
+            #map-dept, #map-region {
+                min-height: 400px;
+            }
+
+            .sidebars {
+                min-width: 100%;
+                flex-direction: row;
+            }
+        }
+
+        .sidebar-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            gap: 8px;
+        }
+
+        .sidebar h3 {
+            flex: 1;
+        }
+
+        .sort-btn {
+            background: #2d7d4f;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85em;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            position: relative;
+        }
+
+        .sort-btn:hover {
+            background: #1b5e3f;
+            transform: scale(1.05);
+        }
+
+        .sort-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            border: 1px solid #2d7d4f;
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            min-width: 200px;
+        }
+
+        .sort-menu.open {
+            display: block;
+        }
+
+        .sort-item {
+            padding: 10px 16px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            font-size: 0.9em;
+            color: #333;
+            transition: background 0.2s ease;
+        }
+
+        .sort-item:first-child {
+            border-radius: 4px 4px 0 0;
+        }
+
+        .sort-item:last-child {
+            border-radius: 0 0 4px 4px;
+        }
+
+        .sort-item:hover {
+            background: #f0f8f5;
+        }
+
+        .sort-item.active {
+            background: #e0f2ec;
+            color: #2d7d4f;
+            font-weight: 600;
+        }
+
+        .highlighted-region {
+            stroke: #1f77b4 !important;
+            stroke-width: 2.5px !important;
+            filter: brightness(1.1) !important;
+        }
+
+        .locked-label {
+            font-size: 0.75em;
+            color: #d73027;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏝️ Koh-Lanta en chiffres</h1>
+        <p>Analyse des origines géographiques des candidats et candidates</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>📍 D'où viennent les candidats ?</h2>
+            <div class="section-description">
+                Les origines géographiques des candidats et candidates de l'émission ne reflètent pas forcément la réalité démographique française.
+            </div>
+
+            <div class="maps-container">
+                <!-- Departments Map -->
+                <div class="map-item">
+                    <h3>Par Département</h3>
+                    <div class="map-wrapper">
+                        <div id="map-dept"></div>
+                        <div class="sidebars">
+                            <div class="sidebar">
+                                <h3>Légende</h3>
+                                <div class="legend">
+                                    <h4 style="color: #1a9850;">Sur-représentés</h4>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #1a9850;"></div>
+                                        <span>Très (gap > 1%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #66bd63;"></div>
+                                        <span>Modérément (0.5%-1%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #b1d582;"></div>
+                                        <span>Légèrement (0%-0.5%)</span>
+                                    </div>
+
+                                    <div class="legend-item" style="margin-top: 10px;">
+                                        <div class="legend-color" style="background: #ffffff; border: 1px solid #ccc;"></div>
+                                        <span>Aucun candidat</span>
+                                    </div>
+
+                                    <h4 style="color: #d73027; margin-top: 10px;">Sous-représentés</h4>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #d9ef8b;"></div>
+                                        <span>Légèrement (0%-(-0.5%))</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #fee08b;"></div>
+                                        <span>Modérément (-0.5%-(-1%))</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #d73027;"></div>
+                                        <span>Très (gap < -1%)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar">
+                                <h3>Infos Département</h3>
+                                <div class="info-content" id="dept-info">
+                                    <p class="placeholder">Survolez un département</p>
+                                </div>
+                            </div>
+
+                            <div class="sidebar">
+                                <div class="sidebar-header">
+                                    <h3>Liste des Départements</h3>
+                                    <div class="sort-btn" onclick="toggleDeptSortMenu(event)" title="Trier par">
+                                        ⇅ <span id="dept-sort-label">Gap ↓</span>
+                                    </div>
+                                    <div class="sort-menu" id="dept-sort-menu">
+                                        <button class="sort-item active" onclick="setDeptSort('gap-desc')">Gap (Plus → Moins)</button>
+                                        <button class="sort-item" onclick="setDeptSort('gap-asc')">Gap (Moins → Plus)</button>
+                                        <button class="sort-item" onclick="setDeptSort('alpha')">Alphabétique (A → Z)</button>
+                                    </div>
+                                </div>
+                                <div class="dept-list" id="dept-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="maps-container" style="margin-top: 40px;">
+                <!-- Regions Map -->
+                <div class="map-item">
+                    <h3>Par Région</h3>
+                    <div class="map-wrapper">
+                        <div id="map-region"></div>
+                        <div class="sidebars">
+                            <div class="sidebar">
+                                <h3>Légende</h3>
+                                <div class="legend">
+                                    <h4 style="color: #1a9850;">Sur-représentés</h4>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #1a9850;"></div>
+                                        <span>Très (gap > 1.5%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #66bd63;"></div>
+                                        <span>Modérément (0.75%-1.5%)</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #b1d582;"></div>
+                                        <span>Légèrement (0%-0.75%)</span>
+                                    </div>
+
+                                    <div class="legend-item" style="margin-top: 10px;">
+                                        <div class="legend-color" style="background: #ffffff; border: 1px solid #ccc;"></div>
+                                        <span>Aucun candidat</span>
+                                    </div>
+
+                                    <h4 style="color: #d73027; margin-top: 10px;">Sous-représentés</h4>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #d9ef8b;"></div>
+                                        <span>Légèrement (0%-(-0.75%))</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #fee08b;"></div>
+                                        <span>Modérément (-0.75%-(-1.5%))</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <div class="legend-color" style="background: #d73027;"></div>
+                                        <span>Très (gap < -1.5%)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar">
+                                <h3>Infos Région</h3>
+                                <div class="info-content" id="region-info">
+                                    <p class="placeholder">Survolez une région</p>
+                                </div>
+                            </div>
+
+                            <div class="sidebar">
+                                <div class="sidebar-header">
+                                    <h3>Liste des Régions</h3>
+                                    <div class="sort-btn" onclick="toggleRegionSortMenu(event)" title="Trier par">
+                                        ⇅ <span id="region-sort-label">Gap ↓</span>
+                                    </div>
+                                    <div class="sort-menu" id="region-sort-menu">
+                                        <button class="sort-item active" onclick="setRegionSort('gap-desc')">Gap (Plus → Moins)</button>
+                                        <button class="sort-item" onclick="setRegionSort('gap-asc')">Gap (Moins → Plus)</button>
+                                        <button class="sort-item" onclick="setRegionSort('alpha')">Alphabétique (A → Z)</button>
+                                    </div>
+                                </div>
+                                <div class="dept-list" id="region-list"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New section: Et les femmes ? -->
+    <div class="container">
+        <div class="section">
+            <h2>👩 Et les femmes ?</h2>
+            <p class="section-description">Analyse de la parité entre les candidats et candidates de Koh-Lanta</p>
+            
+            <div id="gender-charts" class="gender-charts-container"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Source: POPULATION_MUNICIPALE_DEPARTEMENT_FRANCE.xlsx (2023) + donnees_kohlanta.xlsx</p>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>

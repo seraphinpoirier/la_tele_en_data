@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map Debug Test</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body style="font-family: Arial; padding: 20px;">
+    <h1>Map Debug Test</h1>
+    <div id="status"></div>
+    <div id="map" style="width: 800px; height: 600px; border: 1px solid #ccc;"></div>
+    <div id="debug" style="margin-top: 20px; border: 1px solid #ddd; padding: 10px; background: #f9f9f9; white-space: pre-wrap; font-size: 12px; max-height: 300px; overflow-y: auto;"></div>
+
+    <script>
+        const debug = [];
+        function log(msg) {
+            console.log(msg);
+            debug.push(msg);
+            document.getElementById('debug').textContent = debug.join('\n');
+        }
+
+        async function test() {
+            try {
+                log('1. Loading departments data...');
+                const deptResponse = await fetch('departments_data.json');
+                if (!deptResponse.ok) {
+                    throw new Error(`HTTP ${deptResponse.status} when loading departments_data.json`);
+                }
+                const deptData = (await deptResponse.json()).departments;
+                log(`✓ Loaded ${Object.keys(deptData).length} departments`);
+
+                log('2. Loading GeoJSON from GitHub...');
+                const geoResponse = await fetch('https://raw.githubusercontent.com/gregoiredavid/france-geojson/master/departements.geojson');
+                if (!geoResponse.ok) {
+                    throw new Error(`HTTP ${geoResponse.status} when loading GeoJSON`);
+                }
+                const geojson = await geoResponse.json();
+                log(`✓ Loaded GeoJSON with ${geojson.features.length} features`);
+
+                log('3. Checking name matching...');
+                let matched = 0;
+                for (const feature of geojson.features) {
+                    if (deptData[feature.properties.nom]) {
+                        matched++;
+                    }
+                }
+                log(`✓ Matched ${matched}/${geojson.features.length} features with data`);
+
+                log('4. Rendering map...');
+                const container = document.getElementById('map');
+                const width = container.clientWidth;
+                const height = container.clientHeight;
+
+                const svg = d3.select('#map')
+                    .append('svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .style('background', '#eee');
+
+                const projection = d3.geoMercator().fitSize([width, height], geojson);
+                const pathGen = d3.geoPath().projection(projection);
+
+                const g = svg.append('g');
+
+                function getColor(gap, candidates) {
+                    if (candidates === 0) return '#ffffff';
+                    if (gap > 1) return '#d73027';
+                    if (gap > 0.5) return '#fc8d59';
+                    if (gap >= 0) return '#fee090';
+                    if (gap > -0.5) return '#e0f3f8';
+                    if (gap > -1) return '#abd9e9';
+                    return '#4575b4';
+                }
+
+                let colored = 0;
+                g.selectAll('path')
+                    .data(geojson.features)
+                    .enter()
+                    .append('path')
+                    .attr('d', pathGen)
+                    .attr('fill', (d) => {
+                        const data = deptData[d.properties.nom];
+                        if (data) {
+                            colored++;
+                            return getColor(data.gap_percentage, data.candidate_count);
+                        }
+                        return '#cccccc';
+                    })
+                    .attr('stroke', '#999')
+                    .attr('stroke-width', '0.5px');
+
+                log(`✓ Rendered map with ${colored} colored features`);
+                log('SUCCESS! If you see colors on the map, everything is working.');
+
+            } catch (error) {
+                log(`✗ ERROR: ${error.message}`);
+                log(`Stack: ${error.stack}`);
+            }
+        }
+
+        window.addEventListener('load', test);
+    </script>
+</body>
+</html>
