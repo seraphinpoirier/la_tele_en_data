@@ -8,6 +8,8 @@ import sqlite3
 import json
 from pathlib import Path
 from datetime import datetime
+from generate_gender_stats import generate_gender_stats
+from generate_candidate_stats import generate_candidate_stats
 
 # Get the parent directory (project root)
 PROJECT_DIR = Path(__file__).parent.parent
@@ -251,6 +253,8 @@ def main():
         dept_data = generate_departments_data()
         generate_regions_data(dept_data)
         generate_tribe_data()
+        generate_gender_stats()
+        generate_candidate_stats()
         
         print("\n" + "=" * 60)
         print("[OK] Data generation complete!")

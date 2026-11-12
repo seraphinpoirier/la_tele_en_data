@@ -1,0 +1,3673 @@
+{
+  "ages": {
+    "all": {
+      "all": {
+        "counts": {
+          "18": 1,
+          "19": 2,
+          "20": 11,
+          "21": 9,
+          "22": 10,
+          "23": 16,
+          "24": 12,
+          "25": 17,
+          "26": 15,
+          "27": 11,
+          "28": 20,
+          "29": 10,
+          "30": 14,
+          "31": 12,
+          "32": 15,
+          "33": 11,
+          "34": 14,
+          "35": 16,
+          "36": 14,
+          "37": 12,
+          "38": 11,
+          "39": 12,
+          "40": 10,
+          "41": 9,
+          "42": 4,
+          "43": 8,
+          "44": 5,
+          "45": 8,
+          "46": 2,
+          "47": 7,
+          "48": 4,
+          "49": 4,
+          "50": 4,
+          "51": 4,
+          "52": 7,
+          "53": 3,
+          "54": 2,
+          "55": 2,
+          "56": 4,
+          "57": 3,
+          "60": 1,
+          "62": 1,
+          "63": 1,
+          "65": 1
+        },
+        "total": 359,
+        "average": 34.17270194986072
+      },
+      "F": {
+        "counts": {
+          "18": 1,
+          "19": 1,
+          "20": 3,
+          "21": 6,
+          "22": 7,
+          "23": 5,
+          "24": 7,
+          "25": 12,
+          "26": 9,
+          "27": 4,
+          "28": 10,
+          "29": 5,
+          "30": 2,
+          "31": 5,
+          "32": 9,
+          "33": 5,
+          "34": 9,
+          "35": 14,
+          "36": 5,
+          "37": 7,
+          "38": 7,
+          "39": 7,
+          "40": 5,
+          "41": 4,
+          "42": 2,
+          "43": 1,
+          "44": 2,
+          "45": 7,
+          "47": 3,
+          "48": 1,
+          "49": 3,
+          "50": 2,
+          "51": 2,
+          "52": 3,
+          "53": 2,
+          "54": 1,
+          "55": 2,
+          "57": 1
+        },
+        "total": 181,
+        "average": 33.613259668508285
+      },
+      "H": {
+        "counts": {
+          "19": 1,
+          "20": 8,
+          "21": 3,
+          "22": 3,
+          "23": 11,
+          "24": 5,
+          "25": 5,
+          "26": 6,
+          "27": 7,
+          "28": 10,
+          "29": 5,
+          "30": 12,
+          "31": 7,
+          "32": 6,
+          "33": 6,
+          "34": 5,
+          "35": 2,
+          "36": 9,
+          "37": 5,
+          "38": 4,
+          "39": 5,
+          "40": 5,
+          "41": 5,
+          "42": 2,
+          "43": 7,
+          "44": 3,
+          "45": 1,
+          "46": 2,
+          "47": 4,
+          "48": 3,
+          "49": 1,
+          "50": 2,
+          "51": 2,
+          "52": 4,
+          "53": 1,
+          "54": 1,
+          "56": 4,
+          "57": 2,
+          "60": 1,
+          "62": 1,
+          "63": 1,
+          "65": 1
+        },
+        "total": 178,
+        "average": 34.741573033707866
+      }
+    },
+    "orientation": {
+      "all": {
+        "counts": {
+          "19": 2,
+          "20": 1,
+          "21": 1,
+          "22": 5,
+          "23": 3,
+          "24": 1,
+          "25": 4,
+          "26": 4,
+          "27": 2,
+          "28": 6,
+          "29": 4,
+          "30": 4,
+          "31": 2,
+          "32": 3,
+          "33": 3,
+          "34": 2,
+          "35": 1,
+          "36": 1,
+          "37": 5,
+          "38": 2,
+          "40": 4,
+          "41": 4,
+          "42": 1,
+          "43": 4,
+          "45": 1,
+          "46": 1,
+          "47": 1,
+          "48": 1,
+          "50": 1,
+          "52": 2,
+          "55": 1,
+          "56": 1,
+          "60": 1
+        },
+        "total": 79,
+        "average": 33.54430379746835
+      },
+      "F": {
+        "counts": {
+          "19": 1,
+          "21": 1,
+          "22": 3,
+          "23": 1,
+          "24": 1,
+          "25": 3,
+          "26": 3,
+          "27": 1,
+          "28": 4,
+          "29": 2,
+          "31": 1,
+          "32": 1,
+          "33": 1,
+          "34": 1,
+          "35": 1,
+          "37": 5,
+          "40": 1,
+          "41": 1,
+          "43": 1,
+          "45": 1,
+          "47": 1,
+          "50": 1,
+          "55": 1
+        },
+        "total": 37,
+        "average": 31.72972972972973
+      },
+      "H": {
+        "counts": {
+          "19": 1,
+          "20": 1,
+          "22": 2,
+          "23": 2,
+          "25": 1,
+          "26": 1,
+          "27": 1,
+          "28": 2,
+          "29": 2,
+          "30": 4,
+          "31": 1,
+          "32": 2,
+          "33": 2,
+          "34": 1,
+          "36": 1,
+          "38": 2,
+          "40": 3,
+          "41": 3,
+          "42": 1,
+          "43": 3,
+          "46": 1,
+          "48": 1,
+          "52": 2,
+          "56": 1,
+          "60": 1
+        },
+        "total": 42,
+        "average": 35.142857142857146
+      }
+    }
+  },
+  "age_candidates": {
+    "all": [
+      {
+        "nom": "Adrien",
+        "saison": "4 Terres",
+        "place": 18,
+        "genre": "H",
+        "age": "30 "
+      },
+      {
+        "nom": "Alexandra ",
+        "saison": "4 Terres",
+        "place": 1,
+        "genre": "F",
+        "age": "32 "
+      },
+      {
+        "nom": "Alix",
+        "saison": "4 Terres",
+        "place": 9,
+        "genre": "F",
+        "age": "28 "
+      },
+      {
+        "nom": "Angélique",
+        "saison": "4 Terres",
+        "place": 6,
+        "genre": "F",
+        "age": "26 "
+      },
+      {
+        "nom": "Aubin",
+        "saison": "4 Terres",
+        "place": 17,
+        "genre": "H",
+        "age": "23 "
+      },
+      {
+        "nom": "Ava",
+        "saison": "4 Terres",
+        "place": 7,
+        "genre": "F",
+        "age": "26 "
+      },
+      {
+        "nom": "Bertrand-Kamal",
+        "saison": "4 Terres",
+        "place": 13,
+        "genre": "H",
+        "age": "30 "
+      },
+      {
+        "nom": "Brice",
+        "saison": "4 Terres",
+        "place": 2,
+        "genre": "H",
+        "age": "22 "
+      },
+      {
+        "nom": "Carole",
+        "saison": "4 Terres",
+        "place": 23,
+        "genre": "F",
+        "age": "52 "
+      },
+      {
+        "nom": "Diane",
+        "saison": "4 Terres",
+        "place": 21,
+        "genre": "F",
+        "age": "25 "
+      },
+      {
+        "nom": "Dorian",
+        "saison": "4 Terres",
+        "place": 5,
+        "genre": "H",
+        "age": "30 "
+      },
+      {
+        "nom": "Estelle",
+        "saison": "4 Terres",
+        "place": 20,
+        "genre": "F",
+        "age": "47 "
+      },
+      {
+        "nom": "Fabrice",
+        "saison": "4 Terres",
+        "place": 8,
+        "genre": "H",
+        "age": "54 "
+      },
+      {
+        "nom": "François",
+        "saison": "4 Terres",
+        "place": 24,
+        "genre": "H",
+        "age": 47
+      },
+      {
+        "nom": "Hadja",
+        "saison": "4 Terres",
+        "place": 14,
+        "genre": "F",
+        "age": "28 "
+      },
+      {
+        "nom": "Joaquina",
+        "saison": "4 Terres",
+        "place": 12,
+        "genre": "F",
+        "age": "38 "
+      },
+      {
+        "nom": "Jody",
+        "saison": "4 Terres",
+        "place": 11,
+        "genre": "F",
+        "age": "32 "
+      },
+      {
+        "nom": "Laurent",
+        "saison": "4 Terres",
+        "place": 10,
+        "genre": "H",
+        "age": "48 "
+      },
+      {
+        "nom": "Lola",
+        "saison": "4 Terres",
+        "place": 4,
+        "genre": "F",
+        "age": "23 "
+      },
+      {
+        "nom": "Loïc ",
+        "saison": "4 Terres",
+        "place": 3,
+        "genre": "H",
+        "age": "20 "
+      },
+      {
+        "nom": "Marie-France",
+        "saison": "4 Terres",
+        "place": 15,
+        "genre": "F",
+        "age": "49 "
+      },
+      {
+        "nom": "Mathieu",
+        "saison": "4 Terres",
+        "place": 19,
+        "genre": "H",
+        "age": "31 "
+      },
+      {
+        "nom": "Samuel",
+        "saison": "4 Terres",
+        "place": 22,
+        "genre": "H",
+        "age": "39 "
+      },
+      {
+        "nom": "Sébastien",
+        "saison": "4 Terres",
+        "place": 16,
+        "genre": "H",
+        "age": "37 "
+      },
+      {
+        "nom": "Arnaud",
+        "saison": "Armes Secrètes",
+        "place": 5,
+        "genre": "H",
+        "age": "36 "
+      },
+      {
+        "nom": "Aurélien",
+        "saison": "Armes Secrètes",
+        "place": 16,
+        "genre": "H",
+        "age": "34 "
+      },
+      {
+        "nom": "Candice",
+        "saison": "Armes Secrètes",
+        "place": 18,
+        "genre": "F",
+        "age": "25 "
+      },
+      {
+        "nom": "Flavio",
+        "saison": "Armes Secrètes",
+        "place": 7,
+        "genre": "H",
+        "age": "31 "
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Armes Secrètes",
+        "place": 15,
+        "genre": "H",
+        "age": "48 "
+      },
+      {
+        "nom": "Gabin",
+        "saison": "Armes Secrètes",
+        "place": 17,
+        "genre": "H",
+        "age": "27 "
+      },
+      {
+        "nom": "Hervé",
+        "saison": "Armes Secrètes",
+        "place": 14,
+        "genre": "H",
+        "age": "44 "
+      },
+      {
+        "nom": "Jonathan",
+        "saison": "Armes Secrètes",
+        "place": 3,
+        "genre": "H",
+        "age": "31 "
+      },
+      {
+        "nom": "Laure",
+        "saison": "Armes Secrètes",
+        "place": 4,
+        "genre": "F",
+        "age": "26 "
+      },
+      {
+        "nom": "Laëtitia",
+        "saison": "Armes Secrètes",
+        "place": 9,
+        "genre": "F",
+        "age": "37 "
+      },
+      {
+        "nom": "Lucie",
+        "saison": "Armes Secrètes",
+        "place": 2,
+        "genre": "F",
+        "age": "35 "
+      },
+      {
+        "nom": "Magali",
+        "saison": "Armes Secrètes",
+        "place": 6,
+        "genre": "F",
+        "age": "47 "
+      },
+      {
+        "nom": "Marie",
+        "saison": "Armes Secrètes",
+        "place": 20,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Mathieu",
+        "saison": "Armes Secrètes",
+        "place": 13,
+        "genre": "H",
+        "age": "29 "
+      },
+      {
+        "nom": "Maxine",
+        "saison": "Armes Secrètes",
+        "place": 1,
+        "genre": "F",
+        "age": "25 "
+      },
+      {
+        "nom": "Myriam",
+        "saison": "Armes Secrètes",
+        "place": 11,
+        "genre": "F",
+        "age": "36 "
+      },
+      {
+        "nom": "Shanice",
+        "saison": "Armes Secrètes",
+        "place": 12,
+        "genre": "F",
+        "age": "26 "
+      },
+      {
+        "nom": "Sylviane",
+        "saison": "Armes Secrètes",
+        "place": 21,
+        "genre": "F",
+        "age": 44
+      },
+      {
+        "nom": "Thomas",
+        "saison": "Armes Secrètes",
+        "place": 8,
+        "genre": "H",
+        "age": "37 "
+      },
+      {
+        "nom": "Vincent",
+        "saison": "Armes Secrètes",
+        "place": 10,
+        "genre": "H",
+        "age": "28 "
+      },
+      {
+        "nom": "Élodie",
+        "saison": "Armes Secrètes",
+        "place": 19,
+        "genre": "F",
+        "age": "35 "
+      },
+      {
+        "nom": "Bastien",
+        "saison": "Cambodge",
+        "place": 15,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Brahma",
+        "saison": "Cambodge",
+        "place": 16,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Claire",
+        "saison": "Cambodge",
+        "place": 6,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Clémentine",
+        "saison": "Cambodge",
+        "place": 2,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Corentin",
+        "saison": "Cambodge",
+        "place": 8,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Dylan",
+        "saison": "Cambodge",
+        "place": 21,
+        "genre": "H",
+        "age": 22
+      },
+      {
+        "nom": "Franck",
+        "saison": "Cambodge",
+        "place": 18,
+        "genre": "H",
+        "age": 50
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Cambodge",
+        "place": 1,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Félicie",
+        "saison": "Cambodge",
+        "place": 17,
+        "genre": "F",
+        "age": 27
+      },
+      {
+        "nom": "Hada",
+        "saison": "Cambodge",
+        "place": 19,
+        "genre": "F",
+        "age": 31
+      },
+      {
+        "nom": "Kelly",
+        "saison": "Cambodge",
+        "place": 7,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Manuella",
+        "saison": "Cambodge",
+        "place": 11,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Maria",
+        "saison": "Cambodge",
+        "place": 14,
+        "genre": "F",
+        "age": 29
+      },
+      {
+        "nom": "Marjorie",
+        "saison": "Cambodge",
+        "place": 9,
+        "genre": "F",
+        "age": 42
+      },
+      {
+        "nom": "Mathilde",
+        "saison": "Cambodge",
+        "place": 4,
+        "genre": "F",
+        "age": 21
+      },
+      {
+        "nom": "Sabine",
+        "saison": "Cambodge",
+        "place": 20,
+        "genre": "F",
+        "age": 53
+      },
+      {
+        "nom": "Sandro",
+        "saison": "Cambodge",
+        "place": 10,
+        "genre": "H",
+        "age": 31
+      },
+      {
+        "nom": "Sébastien",
+        "saison": "Cambodge",
+        "place": 5,
+        "genre": "H",
+        "age": 35
+      },
+      {
+        "nom": "Vincent",
+        "saison": "Cambodge",
+        "place": 3,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "Yassin",
+        "saison": "Cambodge",
+        "place": 12,
+        "genre": "H",
+        "age": 39
+      },
+      {
+        "nom": "Yves",
+        "saison": "Cambodge",
+        "place": 13,
+        "genre": "H",
+        "age": 49
+      },
+      {
+        "nom": "André",
+        "saison": "Fidji",
+        "place": 1,
+        "genre": "H",
+        "age": "19 "
+      },
+      {
+        "nom": "Caroline",
+        "saison": "Fidji",
+        "place": 14,
+        "genre": "F",
+        "age": "31 "
+      },
+      {
+        "nom": "Delphine",
+        "saison": "Fidji",
+        "place": 20,
+        "genre": "F",
+        "age": "39 "
+      },
+      {
+        "nom": "Fabian",
+        "saison": "Fidji",
+        "place": 9,
+        "genre": "H",
+        "age": "47 "
+      },
+      {
+        "nom": "Magalie",
+        "saison": "Fidji",
+        "place": 3,
+        "genre": "F",
+        "age": "29 "
+      },
+      {
+        "nom": "Manu",
+        "saison": "Fidji",
+        "place": 13,
+        "genre": "H",
+        "age": "57 "
+      },
+      {
+        "nom": "Marguerite",
+        "saison": "Fidji",
+        "place": 5,
+        "genre": "F",
+        "age": "52 "
+      },
+      {
+        "nom": "Marine",
+        "saison": "Fidji",
+        "place": 21,
+        "genre": "F",
+        "age": "21 "
+      },
+      {
+        "nom": "Marta",
+        "saison": "Fidji",
+        "place": 16,
+        "genre": "F",
+        "age": "21 "
+      },
+      {
+        "nom": "Marvyn",
+        "saison": "Fidji",
+        "place": 11,
+        "genre": "H",
+        "age": "20 "
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Fidji",
+        "place": 8,
+        "genre": "H",
+        "age": "38 "
+      },
+      {
+        "nom": "May",
+        "saison": "Fidji",
+        "place": 15,
+        "genre": "F",
+        "age": "20 "
+      },
+      {
+        "nom": "Mel",
+        "saison": "Fidji",
+        "place": 18,
+        "genre": "F",
+        "age": "25 "
+      },
+      {
+        "nom": "Mélanie",
+        "saison": "Fidji",
+        "place": 7,
+        "genre": "F",
+        "age": "34 "
+      },
+      {
+        "nom": "Romain",
+        "saison": "Fidji",
+        "place": 6,
+        "genre": "H",
+        "age": "31 "
+      },
+      {
+        "nom": "Sandrine",
+        "saison": "Fidji",
+        "place": 4,
+        "genre": "F",
+        "age": "43 "
+      },
+      {
+        "nom": "Sébastien",
+        "saison": "Fidji",
+        "place": 10,
+        "genre": "H",
+        "age": "43 "
+      },
+      {
+        "nom": "Thomas",
+        "saison": "Fidji",
+        "place": 19,
+        "genre": "H",
+        "age": "21 "
+      },
+      {
+        "nom": "Théotime",
+        "saison": "Fidji",
+        "place": 17,
+        "genre": "H",
+        "age": "23 "
+      },
+      {
+        "nom": "Tiffany",
+        "saison": "Fidji",
+        "place": 2,
+        "genre": "F",
+        "age": "22 "
+      },
+      {
+        "nom": "Tugdual",
+        "saison": "Fidji",
+        "place": 12,
+        "genre": "H",
+        "age": "27 "
+      },
+      {
+        "nom": "Alexandre",
+        "saison": "Guerre des Chefs",
+        "place": 14,
+        "genre": "H",
+        "age": "28 "
+      },
+      {
+        "nom": "Aliséa",
+        "saison": "Guerre des Chefs",
+        "place": 21,
+        "genre": "F",
+        "age": "20 "
+      },
+      {
+        "nom": "Angélique",
+        "saison": "Guerre des Chefs",
+        "place": 10,
+        "genre": "F",
+        "age": "24 "
+      },
+      {
+        "nom": "Aurélien",
+        "saison": "Guerre des Chefs",
+        "place": 4,
+        "genre": "H",
+        "age": "23 "
+      },
+      {
+        "nom": "Brice",
+        "saison": "Guerre des Chefs",
+        "place": 12,
+        "genre": "H",
+        "age": "24 "
+      },
+      {
+        "nom": "Béatrice",
+        "saison": "Guerre des Chefs",
+        "place": 13,
+        "genre": "F",
+        "age": "28 "
+      },
+      {
+        "nom": "Carinne",
+        "saison": "Guerre des Chefs",
+        "place": 20,
+        "genre": "F",
+        "age": "45 "
+      },
+      {
+        "nom": "Chloé",
+        "saison": "Guerre des Chefs",
+        "place": 17,
+        "genre": "F",
+        "age": "32 "
+      },
+      {
+        "nom": "Cindy",
+        "saison": "Guerre des Chefs",
+        "place": 2,
+        "genre": "F",
+        "age": "31 "
+      },
+      {
+        "nom": "Clo",
+        "saison": "Guerre des Chefs",
+        "place": 5,
+        "genre": "F",
+        "age": "28 "
+      },
+      {
+        "nom": "Cyril",
+        "saison": "Guerre des Chefs",
+        "place": 6,
+        "genre": "H",
+        "age": "37 "
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Guerre des Chefs",
+        "place": 15,
+        "genre": "H",
+        "age": "52 "
+      },
+      {
+        "nom": "Maud",
+        "saison": "Guerre des Chefs",
+        "place": 1,
+        "genre": "F",
+        "age": "50 "
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Guerre des Chefs",
+        "place": 7,
+        "genre": "H",
+        "age": "32 "
+      },
+      {
+        "nom": "Mohamed",
+        "saison": "Guerre des Chefs",
+        "place": 9,
+        "genre": "H",
+        "age": "37 "
+      },
+      {
+        "nom": "Nicolas",
+        "saison": "Guerre des Chefs",
+        "place": 8,
+        "genre": "H",
+        "age": "35 "
+      },
+      {
+        "nom": "Sophie",
+        "saison": "Guerre des Chefs",
+        "place": 11,
+        "genre": "F",
+        "age": "34 "
+      },
+      {
+        "nom": "Steeve",
+        "saison": "Guerre des Chefs",
+        "place": 3,
+        "genre": "H",
+        "age": "46 "
+      },
+      {
+        "nom": "Victor",
+        "saison": "Guerre des Chefs",
+        "place": 18,
+        "genre": "H",
+        "age": "25 "
+      },
+      {
+        "nom": "Xavier",
+        "saison": "Guerre des Chefs",
+        "place": 16,
+        "genre": "H",
+        "age": "53 "
+      },
+      {
+        "nom": "Émilie",
+        "saison": "Guerre des Chefs",
+        "place": 19,
+        "genre": "F",
+        "age": "35 "
+      },
+      {
+        "nom": "Alban",
+        "saison": "Johor",
+        "place": 13,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Babeth",
+        "saison": "Johor",
+        "place": 20,
+        "genre": "F",
+        "age": 52
+      },
+      {
+        "nom": "Benoît",
+        "saison": "Johor",
+        "place": 18,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Bruno",
+        "saison": "Johor",
+        "place": 4,
+        "genre": "H",
+        "age": 52
+      },
+      {
+        "nom": "Chantel",
+        "saison": "Johor",
+        "place": 2,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Charlaine",
+        "saison": "Johor",
+        "place": 10,
+        "genre": "F",
+        "age": 21
+      },
+      {
+        "nom": "Christophe",
+        "saison": "Johor",
+        "place": 7,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Corinne",
+        "saison": "Johor",
+        "place": 12,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Cédric",
+        "saison": "Johor",
+        "place": 11,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Isabelle",
+        "saison": "Johor",
+        "place": 15,
+        "genre": "F",
+        "age": 54
+      },
+      {
+        "nom": "Jeff",
+        "saison": "Johor",
+        "place": 8,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "Jessica",
+        "saison": "Johor",
+        "place": 6,
+        "genre": "F",
+        "age": 31
+      },
+      {
+        "nom": "Loïc ",
+        "saison": "Johor",
+        "place": 16,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Manon",
+        "saison": "Johor",
+        "place": 17,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Marc",
+        "saison": "Johor",
+        "place": 1,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Margot",
+        "saison": "Johor",
+        "place": 14,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Marie-Anne",
+        "saison": "Johor",
+        "place": 19,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Mélissa",
+        "saison": "Johor",
+        "place": 3,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Nessim",
+        "saison": "Johor",
+        "place": 9,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Sébastien",
+        "saison": "Johor",
+        "place": 5,
+        "genre": "H",
+        "age": 25
+      },
+      {
+        "nom": "Alexandre",
+        "saison": "La Tribu Maudite",
+        "place": 18,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Ari",
+        "saison": "La Tribu Maudite",
+        "place": 23,
+        "genre": "H",
+        "age": 51
+      },
+      {
+        "nom": "Cassandre",
+        "saison": "La Tribu Maudite",
+        "place": 8,
+        "genre": "F",
+        "age": 23
+      },
+      {
+        "nom": "Charlotte",
+        "saison": "La Tribu Maudite",
+        "place": 2,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Cécile",
+        "saison": "La Tribu Maudite",
+        "place": 24,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Cécile",
+        "saison": "La Tribu Maudite",
+        "place": 4,
+        "genre": "F",
+        "age": 41
+      },
+      {
+        "nom": "Emmanuelle",
+        "saison": "La Tribu Maudite",
+        "place": 15,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Fabrice",
+        "saison": "La Tribu Maudite",
+        "place": 14,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Gustin",
+        "saison": "La Tribu Maudite",
+        "place": 9,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Ilyesse",
+        "saison": "La Tribu Maudite",
+        "place": 3,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Jacques",
+        "saison": "La Tribu Maudite",
+        "place": 5,
+        "genre": "H",
+        "age": 38
+      },
+      {
+        "nom": "Lola",
+        "saison": "La Tribu Maudite",
+        "place": 21,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Marie",
+        "saison": "La Tribu Maudite",
+        "place": 22,
+        "genre": "F",
+        "age": 29
+      },
+      {
+        "nom": "Maud",
+        "saison": "La Tribu Maudite",
+        "place": 13,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Maxim",
+        "saison": "La Tribu Maudite",
+        "place": 10,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Michel",
+        "saison": "La Tribu Maudite",
+        "place": 17,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Mélissa",
+        "saison": "La Tribu Maudite",
+        "place": 16,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Nathanaël",
+        "saison": "La Tribu Maudite",
+        "place": 19,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Sarah",
+        "saison": "La Tribu Maudite",
+        "place": 12,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Sophia",
+        "saison": "La Tribu Maudite",
+        "place": 7,
+        "genre": "F",
+        "age": 36
+      },
+      {
+        "nom": "Thibault",
+        "saison": "La Tribu Maudite",
+        "place": 1,
+        "genre": "H",
+        "age": 34
+      },
+      {
+        "nom": "Vanessa",
+        "saison": "La Tribu Maudite",
+        "place": 20,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Alexandre",
+        "saison": "Le Feu Sacré",
+        "place": 18,
+        "genre": "H",
+        "age": 34
+      },
+      {
+        "nom": "Anne-Sophie",
+        "saison": "Le Feu Sacré",
+        "place": 11,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Benjamin",
+        "saison": "Le Feu Sacré",
+        "place": 16,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Christine",
+        "saison": "Le Feu Sacré",
+        "place": 14,
+        "genre": "F",
+        "age": 49
+      },
+      {
+        "nom": "Clémence",
+        "saison": "Le Feu Sacré",
+        "place": 8,
+        "genre": "F",
+        "age": 27
+      },
+      {
+        "nom": "Célia",
+        "saison": "Le Feu Sacré",
+        "place": 20,
+        "genre": "F",
+        "age": 49
+      },
+      {
+        "nom": "Emin",
+        "saison": "Le Feu Sacré",
+        "place": 19,
+        "genre": "H",
+        "age": 56
+      },
+      {
+        "nom": "Esteban",
+        "saison": "Le Feu Sacré",
+        "place": 7,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Le Feu Sacré",
+        "place": 1,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Gilles",
+        "saison": "Le Feu Sacré",
+        "place": 9,
+        "genre": "H",
+        "age": 31
+      },
+      {
+        "nom": "Grâce",
+        "saison": "Le Feu Sacré",
+        "place": 12,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Helena",
+        "saison": "Le Feu Sacré",
+        "place": 10,
+        "genre": "F",
+        "age": 27
+      },
+      {
+        "nom": "Julie",
+        "saison": "Le Feu Sacré",
+        "place": 4,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Laura",
+        "saison": "Le Feu Sacré",
+        "place": 6,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Martin",
+        "saison": "Le Feu Sacré",
+        "place": 15,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Nicolas",
+        "saison": "Le Feu Sacré",
+        "place": 3,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Quentin",
+        "saison": "Le Feu Sacré",
+        "place": 5,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Rudy",
+        "saison": "Le Feu Sacré",
+        "place": 13,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Tania",
+        "saison": "Le Feu Sacré",
+        "place": 2,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Élodie",
+        "saison": "Le Feu Sacré",
+        "place": 17,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Alexis",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 18,
+        "genre": "H",
+        "age": 21
+      },
+      {
+        "nom": "Alicia",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 21,
+        "genre": "F",
+        "age": 23
+      },
+      {
+        "nom": "Amri",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 5,
+        "genre": "H",
+        "age": 42
+      },
+      {
+        "nom": "Aurélien",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 10,
+        "genre": "H",
+        "age": 37
+      },
+      {
+        "nom": "Cécile",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 11,
+        "genre": "F",
+        "age": 41
+      },
+      {
+        "nom": "David",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 7,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Jean",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 9,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Julie",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 3,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Léa",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 13,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Léa",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 1,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 15,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Meïssa",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 2,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Mégane",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 8,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Nathalie",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 20,
+        "genre": "F",
+        "age": 55
+      },
+      {
+        "nom": "Océane",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 12,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Pauline",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 4,
+        "genre": "F",
+        "age": 29
+      },
+      {
+        "nom": "Ricky",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 14,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Sarah",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 16,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Steve",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 22,
+        "genre": "H",
+        "age": 34
+      },
+      {
+        "nom": "Sébastien",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 6,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "William",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 19,
+        "genre": "H",
+        "age": 62
+      },
+      {
+        "nom": "Émilie",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 17,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Anthony",
+        "saison": "Malaisie",
+        "place": 14,
+        "genre": "H",
+        "age": 24
+      },
+      {
+        "nom": "Bernard",
+        "saison": "Malaisie",
+        "place": 5,
+        "genre": "H",
+        "age": 60
+      },
+      {
+        "nom": "Brice",
+        "saison": "Malaisie",
+        "place": 2,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Camille",
+        "saison": "Malaisie",
+        "place": 9,
+        "genre": "F",
+        "age": 18
+      },
+      {
+        "nom": "Catherine",
+        "saison": "Malaisie",
+        "place": 10,
+        "genre": "F",
+        "age": 41
+      },
+      {
+        "nom": "Charles",
+        "saison": "Malaisie",
+        "place": 8,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Javier",
+        "saison": "Malaisie",
+        "place": 13,
+        "genre": "H",
+        "age": 39
+      },
+      {
+        "nom": "Marie",
+        "saison": "Malaisie",
+        "place": 15,
+        "genre": "F",
+        "age": 23
+      },
+      {
+        "nom": "Marylou",
+        "saison": "Malaisie",
+        "place": 11,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Mickaël",
+        "saison": "Malaisie",
+        "place": 19,
+        "genre": "H",
+        "age": 57
+      },
+      {
+        "nom": "Myriam",
+        "saison": "Malaisie",
+        "place": 6,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Mélanie",
+        "saison": "Malaisie",
+        "place": 20,
+        "genre": "F",
+        "age": 30
+      },
+      {
+        "nom": "Nadine",
+        "saison": "Malaisie",
+        "place": 17,
+        "genre": "F",
+        "age": 57
+      },
+      {
+        "nom": "Namadia",
+        "saison": "Malaisie",
+        "place": 12,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Philippe",
+        "saison": "Malaisie",
+        "place": 4,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Sara",
+        "saison": "Malaisie",
+        "place": 18,
+        "genre": "F",
+        "age": 42
+      },
+      {
+        "nom": "Thierry",
+        "saison": "Malaisie",
+        "place": 7,
+        "genre": "H",
+        "age": 44
+      },
+      {
+        "nom": "Ugo",
+        "saison": "Malaisie",
+        "place": 1,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Vanessa",
+        "saison": "Malaisie",
+        "place": 3,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Élodie",
+        "saison": "Malaisie",
+        "place": 16,
+        "genre": "F",
+        "age": 36
+      },
+      {
+        "nom": "Alexandra",
+        "saison": "Raja Ampat",
+        "place": 6,
+        "genre": "F",
+        "age": 29
+      },
+      {
+        "nom": "Anthony",
+        "saison": "Raja Ampat",
+        "place": 11,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Benoît",
+        "saison": "Raja Ampat",
+        "place": 15,
+        "genre": "H",
+        "age": 31
+      },
+      {
+        "nom": "Caroline",
+        "saison": "Raja Ampat",
+        "place": 13,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Catherine",
+        "saison": "Raja Ampat",
+        "place": 19,
+        "genre": "F",
+        "age": 53
+      },
+      {
+        "nom": "Délisia",
+        "saison": "Raja Ampat",
+        "place": 14,
+        "genre": "F",
+        "age": 21
+      },
+      {
+        "nom": "Ella",
+        "saison": "Raja Ampat",
+        "place": 4,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Florence",
+        "saison": "Raja Ampat",
+        "place": 9,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Gégé",
+        "saison": "Raja Ampat",
+        "place": 17,
+        "genre": "H",
+        "age": 65
+      },
+      {
+        "nom": "Gérard",
+        "saison": "Raja Ampat",
+        "place": 1,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Laurent",
+        "saison": "Raja Ampat",
+        "place": 3,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Lisa",
+        "saison": "Raja Ampat",
+        "place": 20,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Martin",
+        "saison": "Raja Ampat",
+        "place": 5,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Raja Ampat",
+        "place": 12,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Naouel",
+        "saison": "Raja Ampat",
+        "place": 16,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Olivier",
+        "saison": "Raja Ampat",
+        "place": 10,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Patricia",
+        "saison": "Raja Ampat",
+        "place": 7,
+        "genre": "F",
+        "age": 36
+      },
+      {
+        "nom": "Steve",
+        "saison": "Raja Ampat",
+        "place": 18,
+        "genre": "H",
+        "age": 24
+      },
+      {
+        "nom": "Teheiura",
+        "saison": "Raja Ampat",
+        "place": 2,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Virginie",
+        "saison": "Raja Ampat",
+        "place": 8,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Antonin",
+        "saison": "Reliques du destin",
+        "place": 8,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Caroline",
+        "saison": "Reliques du destin",
+        "place": 4,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Cindy",
+        "saison": "Reliques du destin",
+        "place": 9,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Clarisse",
+        "saison": "Reliques du destin",
+        "place": 2,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Clémence",
+        "saison": "Reliques du destin",
+        "place": 19,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Cynthia",
+        "saison": "Reliques du destin",
+        "place": 1,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Daniel",
+        "saison": "Reliques du destin",
+        "place": 6,
+        "genre": "H",
+        "age": 51
+      },
+      {
+        "nom": "Françoise",
+        "saison": "Reliques du destin",
+        "place": 20,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Guillaume",
+        "saison": "Reliques du destin",
+        "place": 3,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Hugo",
+        "saison": "Reliques du destin",
+        "place": 5,
+        "genre": "H",
+        "age": 25
+      },
+      {
+        "nom": "Jade",
+        "saison": "Reliques du destin",
+        "place": 10,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Johan",
+        "saison": "Reliques du destin",
+        "place": 13,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Jonathan",
+        "saison": "Reliques du destin",
+        "place": 15,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Karine",
+        "saison": "Reliques du destin",
+        "place": 18,
+        "genre": "F",
+        "age": 50
+      },
+      {
+        "nom": "Lionel",
+        "saison": "Reliques du destin",
+        "place": 17,
+        "genre": "H",
+        "age": 42
+      },
+      {
+        "nom": "Lola",
+        "saison": "Reliques du destin",
+        "place": 11,
+        "genre": "F",
+        "age": 21
+      },
+      {
+        "nom": "Nora",
+        "saison": "Reliques du destin",
+        "place": 16,
+        "genre": "F",
+        "age": 51
+      },
+      {
+        "nom": "Paul",
+        "saison": "Reliques du destin",
+        "place": 12,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Ulrich",
+        "saison": "Reliques du destin",
+        "place": 14,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Zakariya",
+        "saison": "Reliques du destin",
+        "place": 7,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Adrien",
+        "saison": "Revanche des 4 Terres",
+        "place": 15,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Allan",
+        "saison": "Revanche des 4 Terres",
+        "place": 23,
+        "genre": "H",
+        "age": 25
+      },
+      {
+        "nom": "Andréa",
+        "saison": "Revanche des 4 Terres",
+        "place": 16,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Benoît",
+        "saison": "Revanche des 4 Terres",
+        "place": 19,
+        "genre": "H",
+        "age": 24
+      },
+      {
+        "nom": "Christian",
+        "saison": "Revanche des 4 Terres",
+        "place": 22,
+        "genre": "H",
+        "age": 63
+      },
+      {
+        "nom": "Claire",
+        "saison": "Revanche des 4 Terres",
+        "place": 4,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Cynthiana",
+        "saison": "Revanche des 4 Terres",
+        "place": 24,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Céline",
+        "saison": "Revanche des 4 Terres",
+        "place": 6,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Revanche des 4 Terres",
+        "place": 14,
+        "genre": "H",
+        "age": 56
+      },
+      {
+        "nom": "Gaëlle",
+        "saison": "Revanche des 4 Terres",
+        "place": 1,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Jessica",
+        "saison": "Revanche des 4 Terres",
+        "place": 13,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Joana",
+        "saison": "Revanche des 4 Terres",
+        "place": 11,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Jérôme",
+        "saison": "Revanche des 4 Terres",
+        "place": 5,
+        "genre": "H",
+        "age": 52
+      },
+      {
+        "nom": "Jérôme",
+        "saison": "Revanche des 4 Terres",
+        "place": 3,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Louise",
+        "saison": "Revanche des 4 Terres",
+        "place": 12,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Revanche des 4 Terres",
+        "place": 8,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Maël",
+        "saison": "Revanche des 4 Terres",
+        "place": 2,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Mehdi",
+        "saison": "Revanche des 4 Terres",
+        "place": 20,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Mohamed",
+        "saison": "Revanche des 4 Terres",
+        "place": 18,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Naïs",
+        "saison": "Revanche des 4 Terres",
+        "place": 10,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Noémie",
+        "saison": "Revanche des 4 Terres",
+        "place": 7,
+        "genre": "F",
+        "age": 32
+      },
+      {
+        "nom": "Pauline",
+        "saison": "Revanche des 4 Terres",
+        "place": 17,
+        "genre": "F",
+        "age": 39
+      },
+      {
+        "nom": "Pierre-Marie",
+        "saison": "Revanche des 4 Terres",
+        "place": 9,
+        "genre": "H",
+        "age": 39
+      },
+      {
+        "nom": "Romane",
+        "saison": "Revanche des 4 Terres",
+        "place": 21,
+        "genre": "F",
+        "age": 20
+      },
+      {
+        "nom": "Alain",
+        "saison": "Thaïlande",
+        "place": 5,
+        "genre": "H",
+        "age": 56
+      },
+      {
+        "nom": "Amir",
+        "saison": "Thaïlande",
+        "place": 14,
+        "genre": "H",
+        "age": 46
+      },
+      {
+        "nom": "Carine",
+        "saison": "Thaïlande",
+        "place": 8,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Carole",
+        "saison": "Thaïlande",
+        "place": 16,
+        "genre": "F",
+        "age": 51
+      },
+      {
+        "nom": "Cassandre",
+        "saison": "Thaïlande",
+        "place": 13,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Charlie",
+        "saison": "Thaïlande",
+        "place": 21,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Cécilia",
+        "saison": "Thaïlande",
+        "place": 4,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Céline",
+        "saison": "Thaïlande",
+        "place": 18,
+        "genre": "F",
+        "age": 44
+      },
+      {
+        "nom": "Gabriel",
+        "saison": "Thaïlande",
+        "place": 3,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Huw",
+        "saison": "Thaïlande",
+        "place": 17,
+        "genre": "H",
+        "age": 38
+      },
+      {
+        "nom": "Julien",
+        "saison": "Thaïlande",
+        "place": 11,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Karima",
+        "saison": "Thaïlande",
+        "place": 7,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Laureen",
+        "saison": "Thaïlande",
+        "place": 10,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Laurence",
+        "saison": "Thaïlande",
+        "place": 20,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Lolo",
+        "saison": "Thaïlande",
+        "place": 15,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Marius",
+        "saison": "Thaïlande",
+        "place": 19,
+        "genre": "H",
+        "age": 21
+      },
+      {
+        "nom": "Nicolas",
+        "saison": "Thaïlande",
+        "place": 6,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "Pascal",
+        "saison": "Thaïlande",
+        "place": 2,
+        "genre": "H",
+        "age": 48
+      },
+      {
+        "nom": "Romain",
+        "saison": "Thaïlande",
+        "place": 12,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Steve",
+        "saison": "Thaïlande",
+        "place": 9,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Wendy",
+        "saison": "Thaïlande",
+        "place": 1,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Alexandra",
+        "saison": "Totem Maudit",
+        "place": 16,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Ambre",
+        "saison": "Totem Maudit",
+        "place": 5,
+        "genre": "F",
+        "age": 27
+      },
+      {
+        "nom": "Anne-Sophie",
+        "saison": "Totem Maudit",
+        "place": 11,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Bastien",
+        "saison": "Totem Maudit",
+        "place": 1,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "Benjamin",
+        "saison": "Totem Maudit",
+        "place": 19,
+        "genre": "H",
+        "age": 24
+      },
+      {
+        "nom": "Colin",
+        "saison": "Totem Maudit",
+        "place": 14,
+        "genre": "H",
+        "age": 25
+      },
+      {
+        "nom": "Céline",
+        "saison": "Totem Maudit",
+        "place": 23,
+        "genre": "F",
+        "age": 41
+      },
+      {
+        "nom": "Fouzi",
+        "saison": "Totem Maudit",
+        "place": 8,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Franck",
+        "saison": "Totem Maudit",
+        "place": 22,
+        "genre": "H",
+        "age": 52
+      },
+      {
+        "nom": "François",
+        "saison": "Totem Maudit",
+        "place": 1,
+        "genre": "H",
+        "age": 38
+      },
+      {
+        "nom": "Géraldine",
+        "saison": "Totem Maudit",
+        "place": 3,
+        "genre": "F",
+        "age": 47
+      },
+      {
+        "nom": "Jean-Charles",
+        "saison": "Totem Maudit",
+        "place": 4,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Jean-Philippe",
+        "saison": "Totem Maudit",
+        "place": 18,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Lili",
+        "saison": "Totem Maudit",
+        "place": 24,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Louana",
+        "saison": "Totem Maudit",
+        "place": 9,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Mattéo",
+        "saison": "Totem Maudit",
+        "place": 21,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Maxime",
+        "saison": "Totem Maudit",
+        "place": 10,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Nicolas",
+        "saison": "Totem Maudit",
+        "place": 7,
+        "genre": "H",
+        "age": 39
+      },
+      {
+        "nom": "Olga",
+        "saison": "Totem Maudit",
+        "place": 6,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Pauline",
+        "saison": "Totem Maudit",
+        "place": 13,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Samira",
+        "saison": "Totem Maudit",
+        "place": 20,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Setha",
+        "saison": "Totem Maudit",
+        "place": 15,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Stéphanie",
+        "saison": "Totem Maudit",
+        "place": 17,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Yannick",
+        "saison": "Totem Maudit",
+        "place": 12,
+        "genre": "H",
+        "age": 34
+      },
+      {
+        "nom": "Abdellah",
+        "saison": "Viêtnam",
+        "place": 9,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "Alain",
+        "saison": "Viêtnam",
+        "place": 16,
+        "genre": "H",
+        "age": 47
+      },
+      {
+        "nom": "Audrey",
+        "saison": "Viêtnam",
+        "place": 12,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Aurélie",
+        "saison": "Viêtnam",
+        "place": 7,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Boris",
+        "saison": "Viêtnam",
+        "place": 11,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Claude",
+        "saison": "Viêtnam",
+        "place": 2,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Frédérique",
+        "saison": "Viêtnam",
+        "place": 18,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Jean-Pierre",
+        "saison": "Viêtnam",
+        "place": 13,
+        "genre": "H",
+        "age": 47
+      },
+      {
+        "nom": "Jennifer",
+        "saison": "Viêtnam",
+        "place": 14,
+        "genre": "F",
+        "age": 23
+      },
+      {
+        "nom": "Kunlé",
+        "saison": "Viêtnam",
+        "place": 5,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Laurence",
+        "saison": "Viêtnam",
+        "place": 6,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Marine",
+        "saison": "Viêtnam",
+        "place": 8,
+        "genre": "F",
+        "age": 35
+      },
+      {
+        "nom": "Philippe",
+        "saison": "Viêtnam",
+        "place": 1,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Valentin",
+        "saison": "Viêtnam",
+        "place": 10,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Virginie",
+        "saison": "Viêtnam",
+        "place": 15,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Vivien",
+        "saison": "Viêtnam",
+        "place": 17,
+        "genre": "H",
+        "age": 20
+      },
+      {
+        "nom": "Véronique",
+        "saison": "Viêtnam",
+        "place": 4,
+        "genre": "F",
+        "age": 55
+      },
+      {
+        "nom": "Wafa",
+        "saison": "Viêtnam",
+        "place": 3,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Alexandra",
+        "saison": "Île au trésor",
+        "place": 11,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Amandine",
+        "saison": "Île au trésor",
+        "place": 19,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Benoît",
+        "saison": "Île au trésor",
+        "place": 1,
+        "genre": "H",
+        "age": 22
+      },
+      {
+        "nom": "Bruno",
+        "saison": "Île au trésor",
+        "place": 4,
+        "genre": "H",
+        "age": 56
+      },
+      {
+        "nom": "Béryl",
+        "saison": "Île au trésor",
+        "place": 12,
+        "genre": "F",
+        "age": 30
+      },
+      {
+        "nom": "Candice",
+        "saison": "Île au trésor",
+        "place": 5,
+        "genre": "F",
+        "age": 19
+      },
+      {
+        "nom": "Freddy",
+        "saison": "Île au trésor",
+        "place": 3,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Jean-Luc",
+        "saison": "Île au trésor",
+        "place": 15,
+        "genre": "H",
+        "age": 50
+      },
+      {
+        "nom": "Jesta",
+        "saison": "Île au trésor",
+        "place": 2,
+        "genre": "F",
+        "age": 24
+      },
+      {
+        "nom": "Julie",
+        "saison": "Île au trésor",
+        "place": 9,
+        "genre": "F",
+        "age": 38
+      },
+      {
+        "nom": "Jérémy",
+        "saison": "Île au trésor",
+        "place": 8,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Jérôme",
+        "saison": "Île au trésor",
+        "place": 14,
+        "genre": "H",
+        "age": 44
+      },
+      {
+        "nom": "Laurent",
+        "saison": "Île au trésor",
+        "place": 16,
+        "genre": "H",
+        "age": 36
+      },
+      {
+        "nom": "Laurent",
+        "saison": "Île au trésor",
+        "place": 13,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Ludivine",
+        "saison": "Île au trésor",
+        "place": 6,
+        "genre": "F",
+        "age": 31
+      },
+      {
+        "nom": "Myriam",
+        "saison": "Île au trésor",
+        "place": 20,
+        "genre": "F",
+        "age": 36
+      },
+      {
+        "nom": "Sandrine",
+        "saison": "Île au trésor",
+        "place": 17,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Sophie",
+        "saison": "Île au trésor",
+        "place": 18,
+        "genre": "F",
+        "age": 48
+      },
+      {
+        "nom": "Stéphane",
+        "saison": "Île au trésor",
+        "place": 7,
+        "genre": "H",
+        "age": 45
+      },
+      {
+        "nom": "Yannick",
+        "saison": "Île au trésor",
+        "place": 10,
+        "genre": "H",
+        "age": 41
+      }
+    ],
+    "orientation": [
+      {
+        "nom": "Alexandra ",
+        "saison": "4 Terres",
+        "place": 1,
+        "genre": "F",
+        "age": "32 "
+      },
+      {
+        "nom": "Brice",
+        "saison": "4 Terres",
+        "place": 2,
+        "genre": "H",
+        "age": "22 "
+      },
+      {
+        "nom": "Dorian",
+        "saison": "4 Terres",
+        "place": 5,
+        "genre": "H",
+        "age": "30 "
+      },
+      {
+        "nom": "Lola",
+        "saison": "4 Terres",
+        "place": 4,
+        "genre": "F",
+        "age": "23 "
+      },
+      {
+        "nom": "Loïc ",
+        "saison": "4 Terres",
+        "place": 3,
+        "genre": "H",
+        "age": "20 "
+      },
+      {
+        "nom": "Arnaud",
+        "saison": "Armes Secrètes",
+        "place": 5,
+        "genre": "H",
+        "age": "36 "
+      },
+      {
+        "nom": "Jonathan",
+        "saison": "Armes Secrètes",
+        "place": 3,
+        "genre": "H",
+        "age": "31 "
+      },
+      {
+        "nom": "Laure",
+        "saison": "Armes Secrètes",
+        "place": 4,
+        "genre": "F",
+        "age": "26 "
+      },
+      {
+        "nom": "Lucie",
+        "saison": "Armes Secrètes",
+        "place": 2,
+        "genre": "F",
+        "age": "35 "
+      },
+      {
+        "nom": "Maxine",
+        "saison": "Armes Secrètes",
+        "place": 1,
+        "genre": "F",
+        "age": "25 "
+      },
+      {
+        "nom": "Clémentine",
+        "saison": "Cambodge",
+        "place": 2,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Cambodge",
+        "place": 1,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Mathilde",
+        "saison": "Cambodge",
+        "place": 4,
+        "genre": "F",
+        "age": 21
+      },
+      {
+        "nom": "Vincent",
+        "saison": "Cambodge",
+        "place": 3,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "André",
+        "saison": "Fidji",
+        "place": 1,
+        "genre": "H",
+        "age": "19 "
+      },
+      {
+        "nom": "Magalie",
+        "saison": "Fidji",
+        "place": 3,
+        "genre": "F",
+        "age": "29 "
+      },
+      {
+        "nom": "Sandrine",
+        "saison": "Fidji",
+        "place": 4,
+        "genre": "F",
+        "age": "43 "
+      },
+      {
+        "nom": "Tiffany",
+        "saison": "Fidji",
+        "place": 2,
+        "genre": "F",
+        "age": "22 "
+      },
+      {
+        "nom": "Aurélien",
+        "saison": "Guerre des Chefs",
+        "place": 4,
+        "genre": "H",
+        "age": "23 "
+      },
+      {
+        "nom": "Cindy",
+        "saison": "Guerre des Chefs",
+        "place": 2,
+        "genre": "F",
+        "age": "31 "
+      },
+      {
+        "nom": "Clo",
+        "saison": "Guerre des Chefs",
+        "place": 5,
+        "genre": "F",
+        "age": "28 "
+      },
+      {
+        "nom": "Maud",
+        "saison": "Guerre des Chefs",
+        "place": 1,
+        "genre": "F",
+        "age": "50 "
+      },
+      {
+        "nom": "Steeve",
+        "saison": "Guerre des Chefs",
+        "place": 3,
+        "genre": "H",
+        "age": "46 "
+      },
+      {
+        "nom": "Bruno",
+        "saison": "Johor",
+        "place": 4,
+        "genre": "H",
+        "age": 52
+      },
+      {
+        "nom": "Chantel",
+        "saison": "Johor",
+        "place": 2,
+        "genre": "F",
+        "age": 45
+      },
+      {
+        "nom": "Marc",
+        "saison": "Johor",
+        "place": 1,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Mélissa",
+        "saison": "Johor",
+        "place": 3,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Charlotte",
+        "saison": "La Tribu Maudite",
+        "place": 2,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Cécile",
+        "saison": "La Tribu Maudite",
+        "place": 4,
+        "genre": "F",
+        "age": 41
+      },
+      {
+        "nom": "Ilyesse",
+        "saison": "La Tribu Maudite",
+        "place": 3,
+        "genre": "H",
+        "age": 23
+      },
+      {
+        "nom": "Jacques",
+        "saison": "La Tribu Maudite",
+        "place": 5,
+        "genre": "H",
+        "age": 38
+      },
+      {
+        "nom": "Thibault",
+        "saison": "La Tribu Maudite",
+        "place": 1,
+        "genre": "H",
+        "age": 34
+      },
+      {
+        "nom": "Frédéric",
+        "saison": "Le Feu Sacré",
+        "place": 1,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Julie",
+        "saison": "Le Feu Sacré",
+        "place": 4,
+        "genre": "F",
+        "age": 33
+      },
+      {
+        "nom": "Nicolas",
+        "saison": "Le Feu Sacré",
+        "place": 3,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Quentin",
+        "saison": "Le Feu Sacré",
+        "place": 5,
+        "genre": "H",
+        "age": 26
+      },
+      {
+        "nom": "Tania",
+        "saison": "Le Feu Sacré",
+        "place": 2,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Amri",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 5,
+        "genre": "H",
+        "age": 42
+      },
+      {
+        "nom": "Julie",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 3,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Léa",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 1,
+        "genre": "F",
+        "age": 40
+      },
+      {
+        "nom": "Meïssa",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 2,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Pauline",
+        "saison": "Les Chasseurs d'Immunité",
+        "place": 4,
+        "genre": "F",
+        "age": 29
+      },
+      {
+        "nom": "Bernard",
+        "saison": "Malaisie",
+        "place": 5,
+        "genre": "H",
+        "age": 60
+      },
+      {
+        "nom": "Brice",
+        "saison": "Malaisie",
+        "place": 2,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Philippe",
+        "saison": "Malaisie",
+        "place": 4,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Ugo",
+        "saison": "Malaisie",
+        "place": 1,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Vanessa",
+        "saison": "Malaisie",
+        "place": 3,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Ella",
+        "saison": "Raja Ampat",
+        "place": 4,
+        "genre": "F",
+        "age": 25
+      },
+      {
+        "nom": "Gérard",
+        "saison": "Raja Ampat",
+        "place": 1,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Laurent",
+        "saison": "Raja Ampat",
+        "place": 3,
+        "genre": "H",
+        "age": 29
+      },
+      {
+        "nom": "Teheiura",
+        "saison": "Raja Ampat",
+        "place": 2,
+        "genre": "H",
+        "age": 33
+      },
+      {
+        "nom": "Caroline",
+        "saison": "Reliques du destin",
+        "place": 4,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Clarisse",
+        "saison": "Reliques du destin",
+        "place": 2,
+        "genre": "F",
+        "age": 22
+      },
+      {
+        "nom": "Cynthia",
+        "saison": "Reliques du destin",
+        "place": 1,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Guillaume",
+        "saison": "Reliques du destin",
+        "place": 3,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Hugo",
+        "saison": "Reliques du destin",
+        "place": 5,
+        "genre": "H",
+        "age": 25
+      },
+      {
+        "nom": "Claire",
+        "saison": "Revanche des 4 Terres",
+        "place": 4,
+        "genre": "F",
+        "age": 37
+      },
+      {
+        "nom": "Gaëlle",
+        "saison": "Revanche des 4 Terres",
+        "place": 1,
+        "genre": "F",
+        "age": 34
+      },
+      {
+        "nom": "Jérôme",
+        "saison": "Revanche des 4 Terres",
+        "place": 5,
+        "genre": "H",
+        "age": 52
+      },
+      {
+        "nom": "Jérôme",
+        "saison": "Revanche des 4 Terres",
+        "place": 3,
+        "genre": "H",
+        "age": 43
+      },
+      {
+        "nom": "Maël",
+        "saison": "Revanche des 4 Terres",
+        "place": 2,
+        "genre": "H",
+        "age": 27
+      },
+      {
+        "nom": "Cécilia",
+        "saison": "Thaïlande",
+        "place": 4,
+        "genre": "F",
+        "age": 28
+      },
+      {
+        "nom": "Gabriel",
+        "saison": "Thaïlande",
+        "place": 3,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Pascal",
+        "saison": "Thaïlande",
+        "place": 2,
+        "genre": "H",
+        "age": 48
+      },
+      {
+        "nom": "Wendy",
+        "saison": "Thaïlande",
+        "place": 1,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Ambre",
+        "saison": "Totem Maudit",
+        "place": 5,
+        "genre": "F",
+        "age": 27
+      },
+      {
+        "nom": "Bastien",
+        "saison": "Totem Maudit",
+        "place": 1,
+        "genre": "H",
+        "age": 32
+      },
+      {
+        "nom": "François",
+        "saison": "Totem Maudit",
+        "place": 1,
+        "genre": "H",
+        "age": 38
+      },
+      {
+        "nom": "Géraldine",
+        "saison": "Totem Maudit",
+        "place": 3,
+        "genre": "F",
+        "age": 47
+      },
+      {
+        "nom": "Jean-Charles",
+        "saison": "Totem Maudit",
+        "place": 4,
+        "genre": "H",
+        "age": 40
+      },
+      {
+        "nom": "Claude",
+        "saison": "Viêtnam",
+        "place": 2,
+        "genre": "H",
+        "age": 30
+      },
+      {
+        "nom": "Philippe",
+        "saison": "Viêtnam",
+        "place": 1,
+        "genre": "H",
+        "age": 41
+      },
+      {
+        "nom": "Véronique",
+        "saison": "Viêtnam",
+        "place": 4,
+        "genre": "F",
+        "age": 55
+      },
+      {
+        "nom": "Wafa",
+        "saison": "Viêtnam",
+        "place": 3,
+        "genre": "F",
+        "age": 26
+      },
+      {
+        "nom": "Benoît",
+        "saison": "Île au trésor",
+        "place": 1,
+        "genre": "H",
+        "age": 22
+      },
+      {
+        "nom": "Bruno",
+        "saison": "Île au trésor",
+        "place": 4,
+        "genre": "H",
+        "age": 56
+      },
+      {
+        "nom": "Candice",
+        "saison": "Île au trésor",
+        "place": 5,
+        "genre": "F",
+        "age": 19
+      },
+      {
+        "nom": "Freddy",
+        "saison": "Île au trésor",
+        "place": 3,
+        "genre": "H",
+        "age": 28
+      },
+      {
+        "nom": "Jesta",
+        "saison": "Île au trésor",
+        "place": 2,
+        "genre": "F",
+        "age": 24
+      }
+    ]
+  },
+  "first_outs": {
+    "gender": {
+      "F": 26,
+      "H": 8,
+      "unknown": 0
+    },
+    "ages": {
+      "all": {
+        "counts": {
+          "20": 1,
+          "22": 1,
+          "23": 1,
+          "25": 4,
+          "28": 1,
+          "30": 1,
+          "33": 1,
+          "34": 3,
+          "35": 1,
+          "36": 2,
+          "37": 1,
+          "38": 1,
+          "39": 2,
+          "40": 2,
+          "41": 1,
+          "44": 1,
+          "45": 1,
+          "49": 1,
+          "50": 1,
+          "51": 2,
+          "52": 2,
+          "53": 1,
+          "56": 1,
+          "65": 1
+        },
+        "total": 34,
+        "average": 38.44117647058823
+      },
+      "F": {
+        "counts": {
+          "23": 1,
+          "25": 4,
+          "28": 1,
+          "30": 1,
+          "33": 1,
+          "34": 2,
+          "35": 1,
+          "36": 2,
+          "37": 1,
+          "38": 1,
+          "39": 2,
+          "40": 2,
+          "41": 1,
+          "44": 1,
+          "45": 1,
+          "49": 1,
+          "51": 1,
+          "52": 1,
+          "53": 1
+        },
+        "total": 26,
+        "average": 36.80769230769231
+      },
+      "H": {
+        "counts": {
+          "20": 1,
+          "22": 1,
+          "34": 1,
+          "50": 1,
+          "51": 1,
+          "52": 1,
+          "56": 1,
+          "65": 1
+        },
+        "total": 8,
+        "average": 43.75
+      }
+    },
+    "candidates": [
+      {
+        "saison": "Armes Secrètes",
+        "tribu": "Jaune",
+        "nom": "Sylviane",
+        "genre": "F",
+        "age": 44,
+        "place": 21
+      },
+      {
+        "saison": "Armes Secrètes",
+        "tribu": "Rouge",
+        "nom": "Marie",
+        "genre": "F",
+        "age": 25,
+        "place": 20
+      },
+      {
+        "saison": "Cambodge",
+        "tribu": "Bleu",
+        "nom": "Dylan",
+        "genre": "H",
+        "age": 22,
+        "place": 21
+      },
+      {
+        "saison": "Cambodge",
+        "tribu": "Jaune",
+        "nom": "Sabine",
+        "genre": "F",
+        "age": 53,
+        "place": 20
+      },
+      {
+        "saison": "Cambodge",
+        "tribu": "Rouge",
+        "nom": "Franck",
+        "genre": "H",
+        "age": 50,
+        "place": 18
+      },
+      {
+        "saison": "Fidji",
+        "tribu": "Jaune",
+        "nom": "Mel",
+        "genre": "F",
+        "age": "25 ",
+        "place": 18
+      },
+      {
+        "saison": "Fidji",
+        "tribu": "Rouge",
+        "nom": "Delphine",
+        "genre": "F",
+        "age": "39 ",
+        "place": 20
+      },
+      {
+        "saison": "Guerre des Chefs",
+        "tribu": "Bleu",
+        "nom": "Frédéric",
+        "genre": "H",
+        "age": "52 ",
+        "place": 15
+      },
+      {
+        "saison": "Guerre des Chefs",
+        "tribu": "Jaune",
+        "nom": "Béatrice",
+        "genre": "F",
+        "age": "28 ",
+        "place": 13
+      },
+      {
+        "saison": "Guerre des Chefs",
+        "tribu": "Rouge",
+        "nom": "Émilie",
+        "genre": "F",
+        "age": "35 ",
+        "place": 19
+      },
+      {
+        "saison": "Johor",
+        "tribu": "Jaune",
+        "nom": "Babeth",
+        "genre": "F",
+        "age": 52,
+        "place": 20
+      },
+      {
+        "saison": "Johor",
+        "tribu": "Rouge",
+        "nom": "Marie-Anne",
+        "genre": "F",
+        "age": 38,
+        "place": 19
+      },
+      {
+        "saison": "La Tribu Maudite",
+        "tribu": "Jaune",
+        "nom": "Cécile",
+        "genre": "F",
+        "age": 34,
+        "place": 24
+      },
+      {
+        "saison": "La Tribu Maudite",
+        "tribu": "Rouge",
+        "nom": "Ari",
+        "genre": "H",
+        "age": 51,
+        "place": 23
+      },
+      {
+        "saison": "La Tribu Maudite",
+        "tribu": "Bannis",
+        "nom": "Vanessa",
+        "genre": "F",
+        "age": 39,
+        "place": 20
+      },
+      {
+        "saison": "Le Feu Sacré",
+        "tribu": "Jaune",
+        "nom": "Célia",
+        "genre": "F",
+        "age": 49,
+        "place": 20
+      },
+      {
+        "saison": "Le Feu Sacré",
+        "tribu": "Rouge",
+        "nom": "Emin",
+        "genre": "H",
+        "age": 56,
+        "place": 19
+      },
+      {
+        "saison": "Les Chasseurs d'Immunité",
+        "tribu": "Jaune",
+        "nom": "Steve",
+        "genre": "H",
+        "age": 34,
+        "place": 22
+      },
+      {
+        "saison": "Les Chasseurs d'Immunité",
+        "tribu": "Rouge",
+        "nom": "Alicia",
+        "genre": "F",
+        "age": 23,
+        "place": 21
+      },
+      {
+        "saison": "Malaisie",
+        "tribu": "Rouge",
+        "nom": "Mélanie",
+        "genre": "F",
+        "age": 30,
+        "place": 20
+      },
+      {
+        "saison": "Malaisie",
+        "tribu": "Jaune",
+        "nom": "Élodie",
+        "genre": "F",
+        "age": 36,
+        "place": 16
+      },
+      {
+        "saison": "Raja Ampat",
+        "tribu": "Rouge",
+        "nom": "Lisa",
+        "genre": "F",
+        "age": 25,
+        "place": 20
+      },
+      {
+        "saison": "Raja Ampat",
+        "tribu": "Jaune",
+        "nom": "Gégé",
+        "genre": "H",
+        "age": 65,
+        "place": 17
+      },
+      {
+        "saison": "Reliques du destin",
+        "tribu": "Rouge",
+        "nom": "Françoise",
+        "genre": "F",
+        "age": 40,
+        "place": 20
+      },
+      {
+        "saison": "Reliques du destin",
+        "tribu": "Jaune",
+        "nom": "Clémence",
+        "genre": "F",
+        "age": 25,
+        "place": 19
+      },
+      {
+        "saison": "Thaïlande",
+        "tribu": "Jaune",
+        "nom": "Laurence",
+        "genre": "F",
+        "age": 37,
+        "place": 20
+      },
+      {
+        "saison": "Thaïlande",
+        "tribu": "Rouge",
+        "nom": "Carole",
+        "genre": "F",
+        "age": 51,
+        "place": 16
+      },
+      {
+        "saison": "Totem Maudit",
+        "tribu": "Vert",
+        "nom": "Lili",
+        "genre": "F",
+        "age": 40,
+        "place": 24
+      },
+      {
+        "saison": "Totem Maudit",
+        "tribu": "Violet",
+        "nom": "Céline",
+        "genre": "F",
+        "age": 41,
+        "place": 23
+      },
+      {
+        "saison": "Totem Maudit",
+        "tribu": "Bleu",
+        "nom": "Samira",
+        "genre": "F",
+        "age": 34,
+        "place": 20
+      },
+      {
+        "saison": "Viêtnam",
+        "tribu": "Jaune",
+        "nom": "Frédérique",
+        "genre": "F",
+        "age": 45,
+        "place": 18
+      },
+      {
+        "saison": "Viêtnam",
+        "tribu": "Rouge",
+        "nom": "Vivien",
+        "genre": "H",
+        "age": 20,
+        "place": 17
+      },
+      {
+        "saison": "Île au trésor",
+        "tribu": "Rouge",
+        "nom": "Myriam",
+        "genre": "F",
+        "age": 36,
+        "place": 20
+      },
+      {
+        "saison": "Île au trésor",
+        "tribu": "Jaune",
+        "nom": "Amandine",
+        "genre": "F",
+        "age": 33,
+        "place": 19
+      }
+    ]
+  }
+}

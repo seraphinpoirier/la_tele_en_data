@@ -1,9 +1,12 @@
 import sqlite3
 import json
+from pathlib import Path
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 def generate_gender_stats():
     """Generate H/F statistics for the 'Et les femmes ?' section"""
-    conn = sqlite3.connect('Donnees_KL.db')
+    conn = sqlite3.connect(PROJECT_DIR / 'Donnees_KL.db')
     cursor = conn.cursor()
     
     stats = {}
@@ -22,7 +25,7 @@ def generate_gender_stats():
         'total': overall.get('H', 0) + overall.get('F', 0)
     }
     
-    # 2. H/F ratio where ori (Original) == 1
+    # 2. H/F ratio for candidates reaching orientation
     cursor.execute("""
         SELECT genre, COUNT(*) as count
         FROM Candidats
@@ -74,13 +77,13 @@ def generate_gender_stats():
         'stats': stats
     }
     
-    with open('gender_stats.json', 'w', encoding='utf-8') as f:
+    with open(PROJECT_DIR / 'gender_stats.json', 'w', encoding='utf-8') as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
     print("Generated gender_stats.json")
     print(f"  Overall: {stats['overall']['H']} H, {stats['overall']['F']} F (total: {stats['overall']['total']})")
-    print(f"  Original: {stats['ori']['H']} H, {stats['ori']['F']} F (total: {stats['ori']['total']})")
-    print(f"  Pot luck: {stats['pot']['H']} H, {stats['pot']['F']} F (total: {stats['pot']['total']})")
+    print(f"  Orientation: {stats['ori']['H']} H, {stats['ori']['F']} F (total: {stats['ori']['total']})")
+    print(f"  Poteaux: {stats['pot']['H']} H, {stats['pot']['F']} F (total: {stats['pot']['total']})")
     print(f"  Place 1 (Winners): {stats['place']['H']} H, {stats['place']['F']} F (total: {stats['place']['total']})")
 
 if __name__ == '__main__':

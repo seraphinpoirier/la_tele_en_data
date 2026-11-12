@@ -33,21 +33,24 @@ Data enriched from:
 - `POPULATION_MUNICIPALE_DEPARTEMENT_FRANCE.xlsx` (column p23_pop)
 - `departements-france.csv`
 
-#### `Candidats` (221 rows)
+#### `Candidats`
 - `id_candidat` (INTEGER, PRIMARY KEY AUTOINCREMENT)
 - `saison` (TEXT) - Season name
-- `genre` (TEXT) - 'M' or 'F'
+- `genre` (TEXT) - 'H' or 'F'
 - `nom` (TEXT) - Candidate name
 - `age` (INTEGER)
 - `id_dept` (INTEGER, FOREIGN KEY)
 - `tribu` (TEXT) - Team/Tribe
 - `amb` (BOOLEAN) - Ambassador?
-- `ori` (BOOLEAN) - Original?
+- `ori` (BOOLEAN) - Reached orientation?
 - `aban` (BOOLEAN) - Abandoned?
-- `pot` (BOOLEAN) - Pot luck?
+- `pot` (BOOLEAN) - Reached the poles?
 - `place` (INTEGER) - Final placement
 
 Data from: `donnees_kohlanta.xlsx`
+
+Rows marked `CB? = O` are excluded at import as comeback appearances; all
+analyses and database views therefore use the same filtered population.
 
 ### Views
 
@@ -111,36 +114,17 @@ ORDER BY c.saison, c.nom;
 
 ## Data Statistics
 
-- **Total Candidates**: 221
-- **Departments with Candidates**: 68 out of 100
-- **Average Candidates per Department**: 2.21
-- **Seasons**: 10 (from "4 Terres" to "Totem Maudit")
-
-### Top Departments by Candidates
-1. Paris (13)
-2. Bouches-du-Rhône (10)
-3. Hauts-de-Seine (10)
-4. Gironde (9)
-5. Nord (9)
-
-### Candidates by Season
-- 4 Terres: 24
-- Armes Secrètes: 21
-- Fidji: 21
-- Guerre des Chefs: 21
-- La Tribu Maudite: 24
-- Le Feu Sacré: 20
-- Les Chasseurs d'Immunité: 22
-- Reliques du destin: 20
-- Revanche des 4 Terres: 24
-- Totem Maudit: 24
+The database and generated JSON files reflect the current source workbook.
+Use `SELECT COUNT(*) FROM Candidats` or the database loader's summary to check
+the current number of candidate participations.
 
 ## Building the Database
 
 To rebuild the database from source files:
 
 ```bash
-python load_data.py
+python scripts/load_data.py
+python scripts/update_data.py
 ```
 
 Requirements:

@@ -13,15 +13,16 @@
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f5f5f5 0%, #e8f5e9 50%, #f5f5f5 100%);
+            background: linear-gradient(155deg, #f8f6ec 0%, #e8f1e7 52%, #f7f3e7 100%);
             min-height: 100vh;
             color: #333;
         }
 
         .header {
-            background: linear-gradient(135deg, #2d7d4f 0%, #1b5e3f 100%);
+            background: radial-gradient(ellipse at 85% 20%, rgba(196, 163, 83, 0.3), transparent 40%),
+                        linear-gradient(135deg, #174b3a 0%, #2d7d4f 65%, #315c42 100%);
             color: white;
-            padding: 40px 20px;
+            padding: 55px 20px;
             text-align: center;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
@@ -42,16 +43,17 @@
         .container {
             max-width: 1800px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 20px 20px;
         }
 
         .section {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(45, 125, 79, 0.1);
+            background: #fffefb;
+            border-radius: 16px;
+            box-shadow: 0 12px 32px rgba(34, 69, 46, 0.09);
             padding: 30px;
             margin-bottom: 30px;
-            border-left: 5px solid #2d7d4f;
+            border: 1px solid #e1e9db;
+            border-top: 4px solid #739a68;
         }
 
         .section h2 {
@@ -63,15 +65,24 @@
             gap: 10px;
         }
 
+        .section h2::after {
+            content: '';
+            width: 40px;
+            height: 3px;
+            background: #c7a45e;
+            border-radius: 3px;
+            margin-left: 4px;
+        }
+
         .section-description {
-            color: #666;
+            color: #526457;
             font-size: 0.95em;
             margin-bottom: 20px;
-            font-style: italic;
-            padding: 10px;
-            background: #f0f8f5;
-            border-radius: 6px;
-            border-left: 3px solid #4caf50;
+            line-height: 1.65;
+            padding: 14px 18px;
+            background: #f2f7ef;
+            border-radius: 8px;
+            border-left: 3px solid #9bb883;
         }
 
         .maps-container {
@@ -350,12 +361,12 @@
         }
 
         .gender-chart {
-            background: #f9f9f9;
-            border-radius: 8px;
+            background: #f8faf5;
+            border-radius: 12px;
             padding: 20px;
             text-align: center;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-            border: 1px solid #e0e0e0;
+            border: 1px solid #e1e9db;
         }
 
         .gender-chart h3 {
@@ -382,15 +393,52 @@
 
         .bar {
             width: 50px;
-            background: linear-gradient(180deg, #2d7d4f 0%, #1b5e3f 100%);
+            background: #58355e;
             border-radius: 4px 4px 0 0;
             transition: all 0.3s ease;
             position: relative;
         }
 
         .bar.female {
-            background: linear-gradient(180deg, #e74c3c 0%, #c0392b 100%);
+            background: #1b998b;
         }
+
+        .age-charts-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        .age-chart-layout { display: flex; gap: 16px; align-items: flex-start; }
+        .age-chart-graph { flex: 2; min-width: 0; }
+        .age-details { flex: 1; min-width: 180px; max-height: 300px; overflow-y: auto; text-align: left; background: white; border-radius: 6px; padding: 12px; font-size: 0.85em; }
+        .age-details ul { padding-left: 18px; margin: 8px 0 0; }
+        .age-details li { margin-bottom: 5px; }
+        .age-hit-area { cursor: pointer; }
+        .age-hit-area:hover, .age-hit-area:focus, .age-hit-area.selected { fill: rgba(0, 0, 0, 0.12); outline: none; }
+        #first-out-charts { display: flex; flex-direction: column; }
+        .first-out-gender-chart { max-width: 500px; width: 100%; align-self: center; }
+        .pie-comparison-section { background: #f8faf5; border: 1px solid #e1e9db; border-radius: 12px; padding: 24px; }
+        .pie-comparison-section > h3 { color: #2d7d4f; text-align: center; margin-bottom: 20px; font-size: 1.15em; }
+        .pie-comparison { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px; }
+        .pie-comparison-chart { text-align: center; min-width: 0; }
+        .pie-comparison-chart h4 { color: #526457; font-size: 1em; margin-bottom: 12px; }
+        .pie-comparison-chart + .pie-comparison-chart { border-left: 1px solid #dce7d7; }
+        .pie-slice { cursor: pointer; }
+        .pie-slice:hover, .pie-slice:focus { filter: brightness(1.15); stroke: #333; outline: none; }
+        .pie-hover-info { min-height: 1.5em; font-size: 0.85em; margin: 5px 0 10px; }
+        @media (max-width: 700px) {
+            .age-chart-layout { flex-direction: column; }
+            .age-chart-graph, .age-details { width: 100%; }
+            .pie-comparison { grid-template-columns: 1fr; }
+            .pie-comparison-chart + .pie-comparison-chart { border-left: 0; border-top: 1px solid #dce7d7; padding-top: 24px; }
+        }
+
+        .stats-svg { width: 100%; height: auto; font-size: 12px; }
+        .pie-svg { width: min(100%, 240px); height: auto; }
+        .stats-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 16px; font-size: 0.85em; }
+        .stats-legend span { display: inline-flex; align-items: center; gap: 5px; }
+        .stats-legend i { width: 12px; height: 12px; flex: none; border-radius: 2px; }
 
         .bar:hover {
             filter: brightness(1.1);
@@ -551,7 +599,7 @@
 <body>
     <div class="header">
         <h1>🏝️ Koh-Lanta en chiffres</h1>
-        <p>Analyse des origines géographiques des candidats et candidates</p>
+        <p>Les candidats, les saisons et l'aventure en données</p>
     </div>
 
     <div class="container">
@@ -716,10 +764,10 @@
                 </div>
             </div>
             <div class="tribe-legend">
-                <span><i style="background:#1f77b4"></i>Bleu</span>
-                <span><i style="background:#ff7f0e"></i>Orange</span>
-                <span><i style="background:#2ca02c"></i>Vert</span>
-                <span><i style="background:#9467bd"></i>Violet</span>
+                <span><i style="background:#00C2D1"></i>Bleu</span>
+                <span><i style="background:#FE7F2D"></i>Orange</span>
+                <span><i style="background:#6DA34D"></i>Vert</span>
+                <span><i style="background:#827191"></i>Violet</span>
                 <span>Hachuré : plusieurs tribus</span>
                 <span>Pointillé : aucun candidat (couleur dominante de la région)</span>
             </div>
@@ -733,6 +781,22 @@
             <p class="section-description">Analyse de la parité entre les candidats et candidates de Koh-Lanta</p>
             
             <div id="gender-charts" class="gender-charts-container"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Le jeu de l'âge</h2>
+            <p class="section-description">Une étude de la répartition des âges dans Koh-Lanta. Les barres empilées indiquent le nombre de candidats à chaque âge, réparti par genre. Survolez ou sélectionnez un âge pour afficher les candidats, leur saison et leur classement. Cliquez pour garder la sélection. Les moyennes portent sur les candidats dont l'âge est connu.</p>
+            <div id="age-charts" class="age-charts-container"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Qui part en premier ?</h2>
+            <p class="section-description">Concentrons-nous sur les premiers éliminés de l'aventure. Est considéré comme premier éliminé tout aventurier qui a été éliminé au premier conseil de son équipe (donc pas sur un abandon). On ne prend pas en compte les saisons avec 4 équipes initiales. Pour chaque équipe des saisons à deux ou trois tribus, on retient le candidat non-abandonnant le moins bien classé. Les répartitions par tranche d'âge excluent les âges inconnus. Pour chaque genre, les premiers éliminés sont comparés à l'ensemble des participations de ce genre. Ces répartitions ne représentent pas directement une probabilité d'élimination.</p>
+            <div id="first-out-charts" class="gender-charts-container"></div>
         </div>
     </div>
 

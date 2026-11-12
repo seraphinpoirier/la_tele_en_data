@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_population": 68094280,
-    "total_candidates": 283,
+    "total_candidates": 359,
     "total_departments": 100,
-    "generated_date": "2026-11-10 17:03:31",
+    "generated_date": "2026-11-12 11:46:28",
     "data_source": "Donnees_KL.db (replaces Excel files)",
     "note": "Generated from database queries instead of Excel files"
   },
@@ -11,9 +11,9 @@
     "Ain": {
       "population_2023": 679344,
       "population_percentage": 1.0,
-      "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": 0.77,
+      "candidate_count": 7,
+      "candidate_percentage": 1.95,
+      "gap_percentage": 0.95,
       "candidates": [
         {
           "name": "Alexandra ",
@@ -32,25 +32,38 @@
           "season": "Le Feu Sacré"
         },
         {
+          "name": "Loïc ",
+          "season": "Johor"
+        },
+        {
           "name": "Myriam",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Teheiura",
+          "season": "Raja Ampat"
         }
       ]
     },
     "Aisne": {
       "population_2023": 523342,
       "population_percentage": 0.77,
-      "candidate_count": 0,
-      "candidate_percentage": 0.0,
-      "gap_percentage": -0.77,
-      "candidates": []
+      "candidate_count": 1,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.49,
+      "candidates": [
+        {
+          "name": "Myriam",
+          "season": "Malaisie"
+        }
+      ]
     },
     "Allier": {
       "population_2023": 333298,
       "population_percentage": 0.49,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.22,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.07,
       "candidates": [
         {
           "name": "Marine",
@@ -65,9 +78,9 @@
     "Alpes-Maritimes": {
       "population_2023": 1128418,
       "population_percentage": 1.66,
-      "candidate_count": 10,
-      "candidate_percentage": 3.53,
-      "gap_percentage": 1.88,
+      "candidate_count": 11,
+      "candidate_percentage": 3.06,
+      "gap_percentage": 1.41,
       "candidates": [
         {
           "name": "Angélique",
@@ -102,6 +115,10 @@
           "season": "Guerre des Chefs"
         },
         {
+          "name": "Thierry",
+          "season": "Malaisie"
+        },
+        {
           "name": "Yannick",
           "season": "Totem Maudit"
         },
@@ -122,17 +139,22 @@
     "Ardennes": {
       "population_2023": 265893,
       "population_percentage": 0.39,
-      "candidate_count": 0,
-      "candidate_percentage": 0.0,
-      "gap_percentage": -0.39,
-      "candidates": []
+      "candidate_count": 1,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.11,
+      "candidates": [
+        {
+          "name": "Virginie",
+          "season": "Raja Ampat"
+        }
+      ]
     },
     "Ardèche": {
       "population_2023": 334231,
       "population_percentage": 0.49,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.22,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.07,
       "candidates": [
         {
           "name": "Fabrice",
@@ -164,8 +186,8 @@
       "population_2023": 379648,
       "population_percentage": 0.56,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.2,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.28,
       "candidates": [
         {
           "name": "Émilie",
@@ -177,8 +199,8 @@
       "population_2023": 279609,
       "population_percentage": 0.41,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.06,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.13,
       "candidates": [
         {
           "name": "Jonathan",
@@ -189,13 +211,17 @@
     "Bas-Rhin": {
       "population_2023": 1163810,
       "population_percentage": 1.71,
-      "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": 0.06,
+      "candidate_count": 6,
+      "candidate_percentage": 1.67,
+      "gap_percentage": -0.04,
       "candidates": [
         {
           "name": "Amandine",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Camille",
+          "season": "Malaisie"
         },
         {
           "name": "David",
@@ -218,9 +244,9 @@
     "Bouches-du-Rhône": {
       "population_2023": 2087658,
       "population_percentage": 3.07,
-      "candidate_count": 15,
-      "candidate_percentage": 5.3,
-      "gap_percentage": 2.23,
+      "candidate_count": 21,
+      "candidate_percentage": 5.85,
+      "gap_percentage": 2.78,
       "candidates": [
         {
           "name": "Adrien",
@@ -229,6 +255,10 @@
         {
           "name": "Alix",
           "season": "4 Terres"
+        },
+        {
+          "name": "Anthony",
+          "season": "Malaisie"
         },
         {
           "name": "Bastien",
@@ -255,6 +285,18 @@
           "season": "Cambodge"
         },
         {
+          "name": "Jean-Pierre",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Jeff",
+          "season": "Johor"
+        },
+        {
+          "name": "Jennifer",
+          "season": "Viêtnam"
+        },
+        {
           "name": "Jessica",
           "season": "Revanche des 4 Terres"
         },
@@ -269,6 +311,14 @@
         {
           "name": "Maria",
           "season": "Cambodge"
+        },
+        {
+          "name": "Marie-Anne",
+          "season": "Johor"
+        },
+        {
+          "name": "Mélissa",
+          "season": "Johor"
         },
         {
           "name": "Naïs",
@@ -288,8 +338,8 @@
       "population_2023": 709441,
       "population_percentage": 1.04,
       "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": 0.72,
+      "candidate_percentage": 1.39,
+      "gap_percentage": 0.35,
       "candidates": [
         {
           "name": "Aurélien",
@@ -324,13 +374,17 @@
     "Charente": {
       "population_2023": 352683,
       "population_percentage": 0.52,
-      "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.16,
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.04,
       "candidates": [
         {
           "name": "Emmanuelle",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Élodie",
+          "season": "Malaisie"
         }
       ]
     },
@@ -338,8 +392,8 @@
       "population_2023": 672279,
       "population_percentage": 0.99,
       "candidate_count": 6,
-      "candidate_percentage": 2.12,
-      "gap_percentage": 1.13,
+      "candidate_percentage": 1.67,
+      "gap_percentage": 0.68,
       "candidates": [
         {
           "name": "Clémence",
@@ -387,8 +441,8 @@
       "population_2023": 168306,
       "population_percentage": 0.25,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": 0.11,
+      "candidate_percentage": 0.28,
+      "gap_percentage": 0.03,
       "candidates": [
         {
           "name": "Pauline",
@@ -400,8 +454,8 @@
       "population_2023": 115527,
       "population_percentage": 0.17,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": 0.18,
+      "candidate_percentage": 0.28,
+      "gap_percentage": 0.11,
       "candidates": [
         {
           "name": "Brice",
@@ -413,8 +467,8 @@
       "population_2023": 540100,
       "population_percentage": 0.79,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.09,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.24,
       "candidates": [
         {
           "name": "Bertrand-Kamal",
@@ -430,8 +484,8 @@
       "population_2023": 611859,
       "population_percentage": 0.9,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.19,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.34,
       "candidates": [
         {
           "name": "Aurélien",
@@ -455,8 +509,8 @@
       "population_2023": 417614,
       "population_percentage": 0.61,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.26,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.33,
       "candidates": [
         {
           "name": "Sandrine",
@@ -468,8 +522,8 @@
       "population_2023": 547163,
       "population_percentage": 0.8,
       "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": 0.26,
+      "candidate_percentage": 0.84,
+      "gap_percentage": 0.03,
       "candidates": [
         {
           "name": "Hervé",
@@ -488,10 +542,14 @@
     "Drôme": {
       "population_2023": 524207,
       "population_percentage": 0.77,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.06,
+      "candidate_count": 3,
+      "candidate_percentage": 0.84,
+      "gap_percentage": 0.07,
       "candidates": [
+        {
+          "name": "Philippe",
+          "season": "Viêtnam"
+        },
         {
           "name": "Pierre-Marie",
           "season": "Revanche des 4 Terres"
@@ -505,13 +563,21 @@
     "Essonne": {
       "population_2023": 1338485,
       "population_percentage": 1.97,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -0.91,
+      "candidate_count": 5,
+      "candidate_percentage": 1.39,
+      "gap_percentage": -0.57,
       "candidates": [
+        {
+          "name": "Jessica",
+          "season": "Johor"
+        },
         {
           "name": "Julie",
           "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Kunlé",
+          "season": "Viêtnam"
         },
         {
           "name": "Laurent",
@@ -526,17 +592,22 @@
     "Eure": {
       "population_2023": 602714,
       "population_percentage": 0.89,
-      "candidate_count": 0,
-      "candidate_percentage": 0.0,
-      "gap_percentage": -0.89,
-      "candidates": []
+      "candidate_count": 1,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.61,
+      "candidates": [
+        {
+          "name": "Gégé",
+          "season": "Raja Ampat"
+        }
+      ]
     },
     "Eure-et-Loir": {
       "population_2023": 433129,
       "population_percentage": 0.64,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.28,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.36,
       "candidates": [
         {
           "name": "Esteban",
@@ -548,8 +619,8 @@
       "population_2023": 933455,
       "population_percentage": 1.37,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -1.02,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -1.09,
       "candidates": [
         {
           "name": "Maël",
@@ -560,10 +631,18 @@
     "Gard": {
       "population_2023": 770940,
       "population_percentage": 1.13,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.43,
+      "candidate_count": 4,
+      "candidate_percentage": 1.11,
+      "gap_percentage": -0.02,
       "candidates": [
+        {
+          "name": "Alain",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Frédérique",
+          "season": "Viêtnam"
+        },
         {
           "name": "Hugo",
           "season": "Reliques du destin"
@@ -578,8 +657,8 @@
       "population_2023": 192645,
       "population_percentage": 0.28,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.42,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.27,
       "candidates": [
         {
           "name": "Aubin",
@@ -594,9 +673,9 @@
     "Gironde": {
       "population_2023": 1690493,
       "population_percentage": 2.48,
-      "candidate_count": 10,
-      "candidate_percentage": 3.53,
-      "gap_percentage": 1.05,
+      "candidate_count": 11,
+      "candidate_percentage": 3.06,
+      "gap_percentage": 0.58,
       "candidates": [
         {
           "name": "Antonin",
@@ -629,6 +708,10 @@
         {
           "name": "Vanessa",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Vanessa",
+          "season": "Malaisie"
         },
         {
           "name": "Yassin",
@@ -668,8 +751,8 @@
       "population_2023": 187180,
       "population_percentage": 0.27,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": 0.08,
+      "candidate_percentage": 0.28,
+      "gap_percentage": 0.0,
       "candidates": [
         {
           "name": "Sarah",
@@ -680,9 +763,9 @@
     "Haute-Garonne": {
       "population_2023": 1471468,
       "population_percentage": 2.16,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -1.1,
+      "candidate_count": 4,
+      "candidate_percentage": 1.11,
+      "gap_percentage": -1.05,
       "candidates": [
         {
           "name": "Jesta",
@@ -695,6 +778,10 @@
         {
           "name": "Pauline",
           "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Wafa",
+          "season": "Viêtnam"
         }
       ]
     },
@@ -717,9 +804,9 @@
     "Haute-Savoie": {
       "population_2023": 861158,
       "population_percentage": 1.26,
-      "candidate_count": 7,
-      "candidate_percentage": 2.47,
-      "gap_percentage": 1.21,
+      "candidate_count": 8,
+      "candidate_percentage": 2.23,
+      "gap_percentage": 0.96,
       "candidates": [
         {
           "name": "Clarisse",
@@ -746,6 +833,10 @@
           "season": "Reliques du destin"
         },
         {
+          "name": "Nadine",
+          "season": "Malaisie"
+        },
+        {
           "name": "Paul",
           "season": "Reliques du destin"
         }
@@ -755,8 +846,8 @@
       "population_2023": 233185,
       "population_percentage": 0.34,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": 0.01,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.06,
       "candidates": [
         {
           "name": "Cécile",
@@ -791,10 +882,14 @@
     "Hauts-de-Seine": {
       "population_2023": 1654712,
       "population_percentage": 2.43,
-      "candidate_count": 14,
-      "candidate_percentage": 4.95,
-      "gap_percentage": 2.52,
+      "candidate_count": 16,
+      "candidate_percentage": 4.46,
+      "gap_percentage": 2.03,
       "candidates": [
+        {
+          "name": "Abdellah",
+          "season": "Viêtnam"
+        },
         {
           "name": "Alexandra",
           "season": "Île au trésor"
@@ -821,10 +916,6 @@
         },
         {
           "name": "Frédéric",
-          "season": "La Tribu Maudite"
-        },
-        {
-          "name": "Frédéric",
           "season": "Le Feu Sacré"
         },
         {
@@ -836,8 +927,16 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Martin",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Meïssa",
           "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Mélanie",
+          "season": "Malaisie"
         },
         {
           "name": "Samuel",
@@ -856,13 +955,17 @@
     "Hérault": {
       "population_2023": 1230289,
       "population_percentage": 1.81,
-      "candidate_count": 6,
-      "candidate_percentage": 2.12,
-      "gap_percentage": 0.31,
+      "candidate_count": 7,
+      "candidate_percentage": 1.95,
+      "gap_percentage": 0.14,
       "candidates": [
         {
           "name": "Ambre",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Florence",
+          "season": "Raja Ampat"
         },
         {
           "name": "François",
@@ -890,8 +993,8 @@
       "population_2023": 1120666,
       "population_percentage": 1.65,
       "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": 0.12,
+      "candidate_percentage": 1.39,
+      "gap_percentage": -0.25,
       "candidates": [
         {
           "name": "Aliséa",
@@ -927,8 +1030,8 @@
       "population_2023": 619362,
       "population_percentage": 0.91,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.56,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.63,
       "candidates": [
         {
           "name": "Romain",
@@ -939,9 +1042,9 @@
     "Isère": {
       "population_2023": 1298990,
       "population_percentage": 1.91,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -0.85,
+      "candidate_count": 4,
+      "candidate_percentage": 1.11,
+      "gap_percentage": -0.79,
       "candidates": [
         {
           "name": "Candice",
@@ -954,6 +1057,10 @@
         {
           "name": "Louise",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Mickaël",
+          "season": "Malaisie"
         }
       ]
     },
@@ -961,8 +1068,8 @@
       "population_2023": 257973,
       "population_percentage": 0.38,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.03,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.1,
       "candidates": [
         {
           "name": "Christian",
@@ -974,8 +1081,8 @@
       "population_2023": 433570,
       "population_percentage": 0.64,
       "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": 0.78,
+      "candidate_percentage": 1.11,
+      "gap_percentage": 0.48,
       "candidates": [
         {
           "name": "Chloé",
@@ -1006,10 +1113,14 @@
     "Loire": {
       "population_2023": 774133,
       "population_percentage": 1.14,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.43,
+      "candidate_count": 3,
+      "candidate_percentage": 0.84,
+      "gap_percentage": -0.3,
       "candidates": [
+        {
+          "name": "Audrey",
+          "season": "Viêtnam"
+        },
         {
           "name": "Candice",
           "season": "Armes Secrètes"
@@ -1023,13 +1134,17 @@
     "Loire-Atlantique": {
       "population_2023": 1487570,
       "population_percentage": 2.18,
-      "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": -0.42,
+      "candidate_count": 6,
+      "candidate_percentage": 1.67,
+      "gap_percentage": -0.51,
       "candidates": [
         {
           "name": "Benjamin",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Bernard",
+          "season": "Malaisie"
         },
         {
           "name": "Béryl",
@@ -1052,9 +1167,9 @@
     "Loiret": {
       "population_2023": 691268,
       "population_percentage": 1.02,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": 0.04,
+      "candidate_count": 4,
+      "candidate_percentage": 1.11,
+      "gap_percentage": 0.1,
       "candidates": [
         {
           "name": "André",
@@ -1065,6 +1180,10 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Brice",
+          "season": "Malaisie"
+        },
+        {
           "name": "Delphine",
           "season": "Fidji"
         }
@@ -1073,9 +1192,9 @@
     "Lot": {
       "population_2023": 176473,
       "population_percentage": 0.26,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.45,
+      "candidate_count": 3,
+      "candidate_percentage": 0.84,
+      "gap_percentage": 0.58,
       "candidates": [
         {
           "name": "Alexis",
@@ -1084,6 +1203,10 @@
         {
           "name": "Claire",
           "season": "Cambodge"
+        },
+        {
+          "name": "Patricia",
+          "season": "Raja Ampat"
         }
       ]
     },
@@ -1091,8 +1214,8 @@
       "population_2023": 333602,
       "population_percentage": 0.49,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.14,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.21,
       "candidates": [
         {
           "name": "Mehdi",
@@ -1111,13 +1234,17 @@
     "Maine-et-Loire": {
       "population_2023": 833776,
       "population_percentage": 1.22,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.52,
+      "candidate_count": 3,
+      "candidate_percentage": 0.84,
+      "gap_percentage": -0.39,
       "candidates": [
         {
           "name": "Clo",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Marc",
+          "season": "Johor"
         },
         {
           "name": "Mathilde",
@@ -1129,8 +1256,8 @@
       "population_2023": 497522,
       "population_percentage": 0.73,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.38,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.45,
       "candidates": [
         {
           "name": "Sébastien",
@@ -1141,13 +1268,17 @@
     "Marne": {
       "population_2023": 563076,
       "population_percentage": 0.83,
-      "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.47,
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.27,
       "candidates": [
         {
           "name": "Hadja",
           "season": "4 Terres"
+        },
+        {
+          "name": "Steve",
+          "season": "Raja Ampat"
         }
       ]
     },
@@ -1155,8 +1286,8 @@
       "population_2023": 360630,
       "population_percentage": 0.53,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.18,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.03,
       "candidates": [
         {
           "name": "Alexandra",
@@ -1179,13 +1310,25 @@
     "Meurthe-et-Moselle": {
       "population_2023": 732236,
       "population_percentage": 1.08,
-      "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.37,
+      "candidate_count": 5,
+      "candidate_percentage": 1.39,
+      "gap_percentage": 0.32,
       "candidates": [
         {
           "name": "Anne-Sophie",
           "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Anthony",
+          "season": "Raja Ampat"
+        },
+        {
+          "name": "Aurélie",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Charlaine",
+          "season": "Johor"
         },
         {
           "name": "Ludivine",
@@ -1204,13 +1347,17 @@
     "Morbihan": {
       "population_2023": 783390,
       "population_percentage": 1.15,
-      "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": 0.26,
+      "candidate_count": 5,
+      "candidate_percentage": 1.39,
+      "gap_percentage": 0.24,
       "candidates": [
         {
           "name": "Benoît",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Chantel",
+          "season": "Johor"
         },
         {
           "name": "Céline",
@@ -1229,13 +1376,17 @@
     "Moselle": {
       "population_2023": 1051309,
       "population_percentage": 1.54,
-      "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": -0.13,
+      "candidate_count": 5,
+      "candidate_percentage": 1.39,
+      "gap_percentage": -0.15,
       "candidates": [
         {
           "name": "Arnaud",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Lisa",
+          "season": "Raja Ampat"
         },
         {
           "name": "Lola",
@@ -1255,8 +1406,8 @@
       "population_2023": 201417,
       "population_percentage": 0.3,
       "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": 0.06,
+      "candidate_percentage": 0.28,
+      "gap_percentage": -0.02,
       "candidates": [
         {
           "name": "Julie",
@@ -1267,13 +1418,21 @@
     "Nord": {
       "population_2023": 2615635,
       "population_percentage": 3.84,
-      "candidate_count": 13,
-      "candidate_percentage": 4.59,
-      "gap_percentage": 0.75,
+      "candidate_count": 18,
+      "candidate_percentage": 5.01,
+      "gap_percentage": 1.17,
       "candidates": [
         {
           "name": "Allan",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Christophe",
+          "season": "Johor"
+        },
+        {
+          "name": "Délisia",
+          "season": "Raja Ampat"
         },
         {
           "name": "Fabrice",
@@ -1292,6 +1451,10 @@
           "season": "Île au trésor"
         },
         {
+          "name": "Manon",
+          "season": "Johor"
+        },
+        {
           "name": "Marguerite",
           "season": "Fidji"
         },
@@ -1308,12 +1471,20 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Olivier",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Sabine",
           "season": "Cambodge"
         },
         {
           "name": "Sébastien",
           "season": "Fidji"
+        },
+        {
+          "name": "Valentin",
+          "season": "Viêtnam"
         },
         {
           "name": "Wendy",
@@ -1328,10 +1499,14 @@
     "Oise": {
       "population_2023": 829899,
       "population_percentage": 1.22,
-      "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.87,
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.66,
       "candidates": [
+        {
+          "name": "Benoît",
+          "season": "Raja Ampat"
+        },
         {
           "name": "Xavier",
           "season": "Guerre des Chefs"
@@ -1349,21 +1524,37 @@
     "Paris": {
       "population_2023": 2103778,
       "population_percentage": 3.09,
-      "candidate_count": 17,
-      "candidate_percentage": 6.01,
-      "gap_percentage": 2.92,
+      "candidate_count": 21,
+      "candidate_percentage": 5.85,
+      "gap_percentage": 2.76,
       "candidates": [
         {
           "name": "Adrien",
           "season": "4 Terres"
         },
         {
+          "name": "Alexandra",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Alexandre",
           "season": "La Tribu Maudite"
         },
         {
+          "name": "Boris",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Claude",
+          "season": "Viêtnam"
+        },
+        {
           "name": "Cyril",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Cédric",
+          "season": "Johor"
         },
         {
           "name": "Félicie",
@@ -1427,8 +1618,8 @@
       "population_2023": 1457905,
       "population_percentage": 2.14,
       "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -1.08,
+      "candidate_percentage": 0.84,
+      "gap_percentage": -1.31,
       "candidates": [
         {
           "name": "Frédéric",
@@ -1448,8 +1639,8 @@
       "population_2023": 664453,
       "population_percentage": 0.98,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.27,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.42,
       "candidates": [
         {
           "name": "Benoît",
@@ -1464,9 +1655,9 @@
     "Pyrénées-Atlantiques": {
       "population_2023": 706564,
       "population_percentage": 1.04,
-      "candidate_count": 7,
-      "candidate_percentage": 2.47,
-      "gap_percentage": 1.44,
+      "candidate_count": 9,
+      "candidate_percentage": 2.51,
+      "gap_percentage": 1.47,
       "candidates": [
         {
           "name": "Alain",
@@ -1489,12 +1680,20 @@
           "season": "4 Terres"
         },
         {
+          "name": "Gérard",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Julie",
           "season": "Île au trésor"
         },
         {
           "name": "Sébastien",
           "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Sébastien",
+          "season": "Johor"
         }
       ]
     },
@@ -1502,8 +1701,8 @@
       "population_2023": 496855,
       "population_percentage": 0.73,
       "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": 0.68,
+      "candidate_percentage": 1.11,
+      "gap_percentage": 0.38,
       "candidates": [
         {
           "name": "Jérôme",
@@ -1519,20 +1718,28 @@
         },
         {
           "name": "Ugo",
-          "season": "La Tribu Maudite"
+          "season": "Malaisie"
         }
       ]
     },
     "Rhône": {
       "population_2023": 1914667,
       "population_percentage": 2.81,
-      "candidate_count": 6,
-      "candidate_percentage": 2.12,
-      "gap_percentage": -0.69,
+      "candidate_count": 8,
+      "candidate_percentage": 2.23,
+      "gap_percentage": -0.58,
       "candidates": [
+        {
+          "name": "Alban",
+          "season": "Johor"
+        },
         {
           "name": "Bastien",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Benoît",
+          "season": "Johor"
         },
         {
           "name": "Cassandre",
@@ -1567,10 +1774,14 @@
     "Sarthe": {
       "population_2023": 566733,
       "population_percentage": 0.83,
-      "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.48,
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.28,
       "candidates": [
+        {
+          "name": "Catherine",
+          "season": "Raja Ampat"
+        },
         {
           "name": "Charlie",
           "season": "Thaïlande"
@@ -1581,8 +1792,8 @@
       "population_2023": 448226,
       "population_percentage": 0.66,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.05,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.1,
       "candidates": [
         {
           "name": "Céline",
@@ -1605,13 +1816,17 @@
     "Seine-Maritime": {
       "population_2023": 1260964,
       "population_percentage": 1.85,
-      "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": -0.44,
+      "candidate_count": 7,
+      "candidate_percentage": 1.95,
+      "gap_percentage": 0.1,
       "candidates": [
         {
           "name": "Alexandre",
           "season": "Le Feu Sacré"
+        },
+        {
+          "name": "Bruno",
+          "season": "Johor"
         },
         {
           "name": "Estelle",
@@ -1622,6 +1837,14 @@
           "season": "Totem Maudit"
         },
         {
+          "name": "Margot",
+          "season": "Johor"
+        },
+        {
+          "name": "Philippe",
+          "season": "Malaisie"
+        },
+        {
           "name": "Thomas",
           "season": "Fidji"
         }
@@ -1630,9 +1853,9 @@
     "Seine-Saint-Denis": {
       "population_2023": 1704316,
       "population_percentage": 2.5,
-      "candidate_count": 7,
-      "candidate_percentage": 2.47,
-      "gap_percentage": -0.03,
+      "candidate_count": 9,
+      "candidate_percentage": 2.51,
+      "gap_percentage": 0.0,
       "candidates": [
         {
           "name": "Alexandre",
@@ -1655,6 +1878,14 @@
           "season": "Fidji"
         },
         {
+          "name": "Marylou",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Naouel",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Tania",
           "season": "Le Feu Sacré"
         },
@@ -1668,8 +1899,8 @@
       "population_2023": 1468108,
       "population_percentage": 2.16,
       "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -1.1,
+      "candidate_percentage": 0.84,
+      "gap_percentage": -1.32,
       "candidates": [
         {
           "name": "Céline",
@@ -1697,8 +1928,8 @@
       "population_2023": 397352,
       "population_percentage": 0.58,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.12,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.03,
       "candidates": [
         {
           "name": "Carine",
@@ -1713,13 +1944,17 @@
     "Tarn-et-Garonne": {
       "population_2023": 265817,
       "population_percentage": 0.39,
-      "candidate_count": 1,
-      "candidate_percentage": 0.35,
-      "gap_percentage": -0.04,
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.17,
       "candidates": [
         {
           "name": "Cynthiana",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Véronique",
+          "season": "Viêtnam"
         }
       ]
     },
@@ -1734,9 +1969,9 @@
     "Val-d'Oise": {
       "population_2023": 1281653,
       "population_percentage": 1.88,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -0.82,
+      "candidate_count": 4,
+      "candidate_percentage": 1.11,
+      "gap_percentage": -0.77,
       "candidates": [
         {
           "name": "Brahma",
@@ -1749,15 +1984,19 @@
         {
           "name": "Lolo",
           "season": "Thaïlande"
+        },
+        {
+          "name": "Vivien",
+          "season": "Viêtnam"
         }
       ]
     },
     "Val-de-Marne": {
       "population_2023": 1426929,
       "population_percentage": 2.1,
-      "candidate_count": 7,
-      "candidate_percentage": 2.47,
-      "gap_percentage": 0.38,
+      "candidate_count": 12,
+      "candidate_percentage": 3.34,
+      "gap_percentage": 1.25,
       "candidates": [
         {
           "name": "Claire",
@@ -1768,12 +2007,24 @@
           "season": "Île au trésor"
         },
         {
+          "name": "Isabelle",
+          "season": "Johor"
+        },
+        {
+          "name": "Laurent",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Lucie",
           "season": "Armes Secrètes"
         },
         {
           "name": "Manuella",
           "season": "Cambodge"
+        },
+        {
+          "name": "Marine",
+          "season": "Viêtnam"
         },
         {
           "name": "Maud",
@@ -1784,6 +2035,14 @@
           "season": "Armes Secrètes"
         },
         {
+          "name": "Namadia",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Nessim",
+          "season": "Johor"
+        },
+        {
           "name": "Rudy",
           "season": "Le Feu Sacré"
         }
@@ -1792,10 +2051,14 @@
     "Var": {
       "population_2023": 1119307,
       "population_percentage": 1.64,
-      "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": -0.58,
+      "candidate_count": 6,
+      "candidate_percentage": 1.67,
+      "gap_percentage": 0.03,
       "candidates": [
+        {
+          "name": "Corinne",
+          "season": "Johor"
+        },
         {
           "name": "Jean-Luc",
           "season": "Île au trésor"
@@ -1807,6 +2070,14 @@
         {
           "name": "Pascal",
           "season": "Thaïlande"
+        },
+        {
+          "name": "Sara",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Virginie",
+          "season": "Viêtnam"
         }
       ]
     },
@@ -1814,8 +2085,8 @@
       "population_2023": 572056,
       "population_percentage": 0.84,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": -0.13,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.28,
       "candidates": [
         {
           "name": "Frédéric",
@@ -1839,8 +2110,8 @@
       "population_2023": 438897,
       "population_percentage": 0.64,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.06,
+      "candidate_percentage": 0.56,
+      "gap_percentage": -0.09,
       "candidates": [
         {
           "name": "Aurélien",
@@ -1856,8 +2127,8 @@
       "population_2023": 357248,
       "population_percentage": 0.52,
       "candidate_count": 3,
-      "candidate_percentage": 1.06,
-      "gap_percentage": 0.54,
+      "candidate_percentage": 0.84,
+      "gap_percentage": 0.31,
       "candidates": [
         {
           "name": "Marius",
@@ -1876,17 +2147,26 @@
     "Yonne": {
       "population_2023": 332267,
       "population_percentage": 0.49,
-      "candidate_count": 0,
-      "candidate_percentage": 0.0,
-      "gap_percentage": -0.49,
-      "candidates": []
+      "candidate_count": 2,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.07,
+      "candidates": [
+        {
+          "name": "Babeth",
+          "season": "Johor"
+        },
+        {
+          "name": "Catherine",
+          "season": "Malaisie"
+        }
+      ]
     },
     "Yvelines": {
       "population_2023": 1485086,
       "population_percentage": 2.18,
-      "candidate_count": 4,
-      "candidate_percentage": 1.41,
-      "gap_percentage": -0.77,
+      "candidate_count": 5,
+      "candidate_percentage": 1.39,
+      "gap_percentage": -0.79,
       "candidates": [
         {
           "name": "Amir",
@@ -1895,6 +2175,10 @@
         {
           "name": "Bruno",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Charles",
+          "season": "Malaisie"
         },
         {
           "name": "Nora",

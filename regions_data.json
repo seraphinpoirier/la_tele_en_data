@@ -1,9 +1,9 @@
 {
   "metadata": {
     "total_population": 68094280,
-    "total_candidates": 283,
+    "total_candidates": 359,
     "total_regions": 18,
-    "generated_date": "2026-11-10 17:03:31",
+    "generated_date": "2026-11-12 11:46:28",
     "data_source": "Donnees_KL.db (replaces Excel files)",
     "note": "Generated from database queries instead of Excel files"
   },
@@ -11,10 +11,14 @@
     "Auvergne-Rhône-Alpes": {
       "population_2023": 8205557,
       "population_percentage": 12.05,
-      "candidate_count": 33,
-      "candidate_percentage": 11.66,
-      "gap_percentage": -0.39,
+      "candidate_count": 41,
+      "candidate_percentage": 11.42,
+      "gap_percentage": -0.63,
       "candidates": [
+        {
+          "name": "Alban",
+          "season": "Johor"
+        },
         {
           "name": "Alexandra ",
           "season": "4 Terres"
@@ -24,12 +28,20 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Audrey",
+          "season": "Viêtnam"
+        },
+        {
           "name": "Bastien",
           "season": "Totem Maudit"
         },
         {
           "name": "Benoît",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Benoît",
+          "season": "Johor"
         },
         {
           "name": "Candice",
@@ -108,6 +120,10 @@
           "season": "4 Terres"
         },
         {
+          "name": "Loïc ",
+          "season": "Johor"
+        },
+        {
           "name": "Marine",
           "season": "Fidji"
         },
@@ -120,8 +136,16 @@
           "season": "Fidji"
         },
         {
+          "name": "Mickaël",
+          "season": "Malaisie"
+        },
+        {
           "name": "Myriam",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Nadine",
+          "season": "Malaisie"
         },
         {
           "name": "Océane",
@@ -130,6 +154,10 @@
         {
           "name": "Paul",
           "season": "Reliques du destin"
+        },
+        {
+          "name": "Philippe",
+          "season": "Viêtnam"
         },
         {
           "name": "Pierre-Marie",
@@ -146,19 +174,31 @@
         {
           "name": "Sébastien",
           "season": "4 Terres"
+        },
+        {
+          "name": "Teheiura",
+          "season": "Raja Ampat"
         }
       ]
     },
     "Bourgogne-Franche-Comté": {
       "population_2023": 2802670,
       "population_percentage": 4.12,
-      "candidate_count": 8,
-      "candidate_percentage": 2.83,
-      "gap_percentage": -1.29,
+      "candidate_count": 10,
+      "candidate_percentage": 2.79,
+      "gap_percentage": -1.33,
       "candidates": [
+        {
+          "name": "Babeth",
+          "season": "Johor"
+        },
         {
           "name": "Bertrand-Kamal",
           "season": "4 Terres"
+        },
+        {
+          "name": "Catherine",
+          "season": "Malaisie"
         },
         {
           "name": "Christian",
@@ -193,9 +233,9 @@
     "Bretagne": {
       "population_2023": 3449370,
       "population_percentage": 5.07,
-      "candidate_count": 12,
-      "candidate_percentage": 4.24,
-      "gap_percentage": -0.83,
+      "candidate_count": 13,
+      "candidate_percentage": 3.62,
+      "gap_percentage": -1.44,
       "candidates": [
         {
           "name": "Aliséa",
@@ -212,6 +252,10 @@
         {
           "name": "Béatrice",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Chantel",
+          "season": "Johor"
         },
         {
           "name": "Céline",
@@ -250,9 +294,9 @@
     "Centre-Val de Loire": {
       "population_2023": 2587031,
       "population_percentage": 3.8,
-      "candidate_count": 5,
-      "candidate_percentage": 1.77,
-      "gap_percentage": -2.03,
+      "candidate_count": 6,
+      "candidate_percentage": 1.67,
+      "gap_percentage": -2.13,
       "candidates": [
         {
           "name": "André",
@@ -261,6 +305,10 @@
         {
           "name": "Andréa",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Brice",
+          "season": "Malaisie"
         },
         {
           "name": "Delphine",
@@ -280,8 +328,8 @@
       "population_2023": 355486,
       "population_percentage": 0.52,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.18,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.04,
       "candidates": [
         {
           "name": "Pauline",
@@ -296,9 +344,9 @@
     "Grand Est": {
       "population_2023": 5563378,
       "population_percentage": 8.17,
-      "candidate_count": 15,
-      "candidate_percentage": 5.3,
-      "gap_percentage": -2.87,
+      "candidate_count": 22,
+      "candidate_percentage": 6.13,
+      "gap_percentage": -2.04,
       "candidates": [
         {
           "name": "Amandine",
@@ -309,8 +357,24 @@
           "season": "Le Feu Sacré"
         },
         {
+          "name": "Anthony",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Arnaud",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Aurélie",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Camille",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Charlaine",
+          "season": "Johor"
         },
         {
           "name": "David",
@@ -323,6 +387,10 @@
         {
           "name": "Hadja",
           "season": "4 Terres"
+        },
+        {
+          "name": "Lisa",
+          "season": "Raja Ampat"
         },
         {
           "name": "Lola",
@@ -353,12 +421,20 @@
           "season": "Le Feu Sacré"
         },
         {
+          "name": "Steve",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Théotime",
           "season": "Fidji"
         },
         {
           "name": "Victor",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Virginie",
+          "season": "Raja Ampat"
         }
       ]
     },
@@ -381,13 +457,25 @@
     "Hauts-de-France": {
       "population_2023": 5992194,
       "population_percentage": 8.8,
-      "candidate_count": 17,
-      "candidate_percentage": 6.01,
-      "gap_percentage": -2.79,
+      "candidate_count": 24,
+      "candidate_percentage": 6.69,
+      "gap_percentage": -2.11,
       "candidates": [
         {
           "name": "Allan",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Benoît",
+          "season": "Raja Ampat"
+        },
+        {
+          "name": "Christophe",
+          "season": "Johor"
+        },
+        {
+          "name": "Délisia",
+          "season": "Raja Ampat"
         },
         {
           "name": "Fabrice",
@@ -414,6 +502,10 @@
           "season": "4 Terres"
         },
         {
+          "name": "Manon",
+          "season": "Johor"
+        },
+        {
           "name": "Marguerite",
           "season": "Fidji"
         },
@@ -430,12 +522,24 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Myriam",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Olivier",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Sabine",
           "season": "Cambodge"
         },
         {
           "name": "Sébastien",
           "season": "Fidji"
+        },
+        {
+          "name": "Valentin",
+          "season": "Viêtnam"
         },
         {
           "name": "Wendy",
@@ -467,8 +571,8 @@
       "population_2023": 360630,
       "population_percentage": 0.53,
       "candidate_count": 2,
-      "candidate_percentage": 0.71,
-      "gap_percentage": 0.18,
+      "candidate_percentage": 0.56,
+      "gap_percentage": 0.03,
       "candidates": [
         {
           "name": "Alexandra",
@@ -491,9 +595,9 @@
     "Normandie": {
       "population_2023": 3345842,
       "population_percentage": 4.91,
-      "candidate_count": 10,
-      "candidate_percentage": 3.53,
-      "gap_percentage": -1.38,
+      "candidate_count": 14,
+      "candidate_percentage": 3.9,
+      "gap_percentage": -1.01,
       "candidates": [
         {
           "name": "Alexandre",
@@ -502,6 +606,10 @@
         {
           "name": "Aurélien",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Bruno",
+          "season": "Johor"
         },
         {
           "name": "Carinne",
@@ -520,12 +628,24 @@
           "season": "4 Terres"
         },
         {
+          "name": "Gégé",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Jean",
           "season": "Les Chasseurs d'Immunité"
         },
         {
           "name": "Jean-Philippe",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Margot",
+          "season": "Johor"
+        },
+        {
+          "name": "Philippe",
+          "season": "Malaisie"
         },
         {
           "name": "Sébastien",
@@ -540,9 +660,9 @@
     "Nouvelle-Aquitaine": {
       "population_2023": 6150451,
       "population_percentage": 9.03,
-      "candidate_count": 33,
-      "candidate_percentage": 11.66,
-      "gap_percentage": 2.63,
+      "candidate_count": 37,
+      "candidate_percentage": 10.31,
+      "gap_percentage": 1.27,
       "candidates": [
         {
           "name": "Alain",
@@ -605,6 +725,10 @@
           "season": "4 Terres"
         },
         {
+          "name": "Gérard",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Jacques",
           "season": "La Tribu Maudite"
         },
@@ -661,8 +785,16 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Sébastien",
+          "season": "Johor"
+        },
+        {
           "name": "Vanessa",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Vanessa",
+          "season": "Malaisie"
         },
         {
           "name": "Vincent",
@@ -673,6 +805,10 @@
           "season": "Cambodge"
         },
         {
+          "name": "Élodie",
+          "season": "Malaisie"
+        },
+        {
           "name": "Émilie",
           "season": "Guerre des Chefs"
         }
@@ -681,10 +817,14 @@
     "Occitanie": {
       "population_2023": 6124653,
       "population_percentage": 8.99,
-      "candidate_count": 24,
-      "candidate_percentage": 8.48,
-      "gap_percentage": -0.51,
+      "candidate_count": 30,
+      "candidate_percentage": 8.36,
+      "gap_percentage": -0.64,
       "candidates": [
+        {
+          "name": "Alain",
+          "season": "Viêtnam"
+        },
         {
           "name": "Alexis",
           "season": "Les Chasseurs d'Immunité"
@@ -718,8 +858,16 @@
           "season": "Revanche des 4 Terres"
         },
         {
+          "name": "Florence",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "François",
           "season": "Totem Maudit"
+        },
+        {
+          "name": "Frédérique",
+          "season": "Viêtnam"
         },
         {
           "name": "Hugo",
@@ -758,6 +906,10 @@
           "season": "Totem Maudit"
         },
         {
+          "name": "Patricia",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Pauline",
           "season": "Les Chasseurs d'Immunité"
         },
@@ -771,7 +923,15 @@
         },
         {
           "name": "Ugo",
-          "season": "La Tribu Maudite"
+          "season": "Malaisie"
+        },
+        {
+          "name": "Véronique",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Wafa",
+          "season": "Viêtnam"
         },
         {
           "name": "Yves",
@@ -786,17 +946,25 @@
     "Pays de la Loire": {
       "population_2023": 3907156,
       "population_percentage": 5.74,
-      "candidate_count": 8,
-      "candidate_percentage": 2.83,
-      "gap_percentage": -2.91,
+      "candidate_count": 11,
+      "candidate_percentage": 3.06,
+      "gap_percentage": -2.67,
       "candidates": [
         {
           "name": "Benjamin",
           "season": "Totem Maudit"
         },
         {
+          "name": "Bernard",
+          "season": "Malaisie"
+        },
+        {
           "name": "Béryl",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Catherine",
+          "season": "Raja Ampat"
         },
         {
           "name": "Charlie",
@@ -805,6 +973,10 @@
         {
           "name": "Clo",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Marc",
+          "season": "Johor"
         },
         {
           "name": "Mathilde",
@@ -827,9 +999,9 @@
     "Provence-Alpes-Côte d'Azur": {
       "population_2023": 5218960,
       "population_percentage": 7.66,
-      "candidate_count": 30,
-      "candidate_percentage": 10.6,
-      "gap_percentage": 2.94,
+      "candidate_count": 40,
+      "candidate_percentage": 11.14,
+      "gap_percentage": 3.48,
       "candidates": [
         {
           "name": "Adrien",
@@ -842,6 +1014,10 @@
         {
           "name": "Angélique",
           "season": "Guerre des Chefs"
+        },
+        {
+          "name": "Anthony",
+          "season": "Malaisie"
         },
         {
           "name": "Bastien",
@@ -864,6 +1040,10 @@
           "season": "Reliques du destin"
         },
         {
+          "name": "Corinne",
+          "season": "Johor"
+        },
+        {
           "name": "Flavio",
           "season": "Armes Secrètes"
         },
@@ -882,6 +1062,18 @@
         {
           "name": "Jean-Luc",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Jean-Pierre",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Jeff",
+          "season": "Johor"
+        },
+        {
+          "name": "Jennifer",
+          "season": "Viêtnam"
         },
         {
           "name": "Jessica",
@@ -904,6 +1096,10 @@
           "season": "Cambodge"
         },
         {
+          "name": "Marie-Anne",
+          "season": "Johor"
+        },
+        {
           "name": "Mathieu",
           "season": "4 Terres"
         },
@@ -914,6 +1110,10 @@
         {
           "name": "Mélissa",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Mélissa",
+          "season": "Johor"
         },
         {
           "name": "Naïs",
@@ -932,6 +1132,10 @@
           "season": "Thaïlande"
         },
         {
+          "name": "Sara",
+          "season": "Malaisie"
+        },
+        {
           "name": "Steeve",
           "season": "Guerre des Chefs"
         },
@@ -940,8 +1144,16 @@
           "season": "Île au trésor"
         },
         {
+          "name": "Thierry",
+          "season": "Malaisie"
+        },
+        {
           "name": "Tiffany",
           "season": "Fidji"
+        },
+        {
+          "name": "Virginie",
+          "season": "Viêtnam"
         },
         {
           "name": "Yannick",
@@ -956,10 +1168,14 @@
     "Île-de-France": {
       "population_2023": 12463067,
       "population_percentage": 18.3,
-      "candidate_count": 58,
-      "candidate_percentage": 20.49,
-      "gap_percentage": 2.19,
+      "candidate_count": 75,
+      "candidate_percentage": 20.89,
+      "gap_percentage": 2.59,
       "candidates": [
+        {
+          "name": "Abdellah",
+          "season": "Viêtnam"
+        },
         {
           "name": "Adrien",
           "season": "4 Terres"
@@ -967,6 +1183,10 @@
         {
           "name": "Alexandra",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Alexandra",
+          "season": "Raja Ampat"
         },
         {
           "name": "Alexandre",
@@ -993,6 +1213,10 @@
           "season": "La Tribu Maudite"
         },
         {
+          "name": "Boris",
+          "season": "Viêtnam"
+        },
+        {
           "name": "Brahma",
           "season": "Cambodge"
         },
@@ -1005,12 +1229,20 @@
           "season": "Thaïlande"
         },
         {
+          "name": "Charles",
+          "season": "Malaisie"
+        },
+        {
           "name": "Cindy",
           "season": "Reliques du destin"
         },
         {
           "name": "Claire",
           "season": "Revanche des 4 Terres"
+        },
+        {
+          "name": "Claude",
+          "season": "Viêtnam"
         },
         {
           "name": "Cyril",
@@ -1023,6 +1255,10 @@
         {
           "name": "Cécilia",
           "season": "Thaïlande"
+        },
+        {
+          "name": "Cédric",
+          "season": "Johor"
         },
         {
           "name": "Céline",
@@ -1038,10 +1274,6 @@
         },
         {
           "name": "Frédéric",
-          "season": "La Tribu Maudite"
-        },
-        {
-          "name": "Frédéric",
           "season": "Le Feu Sacré"
         },
         {
@@ -1051,6 +1283,14 @@
         {
           "name": "Ilyesse",
           "season": "La Tribu Maudite"
+        },
+        {
+          "name": "Isabelle",
+          "season": "Johor"
+        },
+        {
+          "name": "Jessica",
+          "season": "Johor"
         },
         {
           "name": "Joana",
@@ -1077,8 +1317,16 @@
           "season": "Cambodge"
         },
         {
+          "name": "Kunlé",
+          "season": "Viêtnam"
+        },
+        {
           "name": "Laurent",
           "season": "Île au trésor"
+        },
+        {
+          "name": "Laurent",
+          "season": "Raja Ampat"
         },
         {
           "name": "Lolo",
@@ -1109,6 +1357,18 @@
           "season": "La Tribu Maudite"
         },
         {
+          "name": "Marine",
+          "season": "Viêtnam"
+        },
+        {
+          "name": "Martin",
+          "season": "Raja Ampat"
+        },
+        {
+          "name": "Marylou",
+          "season": "Malaisie"
+        },
+        {
           "name": "Mattéo",
           "season": "Totem Maudit"
         },
@@ -1137,8 +1397,24 @@
           "season": "Les Chasseurs d'Immunité"
         },
         {
+          "name": "Mélanie",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Namadia",
+          "season": "Malaisie"
+        },
+        {
+          "name": "Naouel",
+          "season": "Raja Ampat"
+        },
+        {
           "name": "Nathalie",
           "season": "Les Chasseurs d'Immunité"
+        },
+        {
+          "name": "Nessim",
+          "season": "Johor"
         },
         {
           "name": "Nora",
@@ -1187,6 +1463,10 @@
         {
           "name": "Vincent",
           "season": "Armes Secrètes"
+        },
+        {
+          "name": "Vivien",
+          "season": "Viêtnam"
         },
         {
           "name": "William",

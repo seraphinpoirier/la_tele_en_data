@@ -110,8 +110,15 @@ def load_candidates_data():
     ws = wb.active
     
     headers = [cell.value for cell in ws[1]]
-    
+    comeback_index = headers.index('CB?')
+    excluded = 0
     for row in ws.iter_rows(min_row=2, values_only=True):
+        comeback = row[comeback_index]
+        if comeback is not None and str(comeback).strip().upper() not in ('', 'O'):
+            raise ValueError(f"Unexpected CB? value {comeback!r} for {row[headers.index('NOM')]}")
+        if comeback is not None and str(comeback).strip().upper() == 'O':
+            excluded += 1
+            continue
         candidate = {
             'saison': row[headers.index('SAISON')],
             'genre': (row[headers.index('GENRE')] or '').strip().upper() or None,
@@ -127,7 +134,7 @@ def load_candidates_data():
         }
         candidates_data.append(candidate)
     
-    print(f"  Loaded {len(candidates_data)} candidates")
+    print(f"  Loaded {len(candidates_data)} candidates; excluded {excluded} comeback appearances")
     return candidates_data
 
 

@@ -27,6 +27,9 @@ def main():
         print("Files regenerated:")
         print("  - departments_data.json")
         print("  - regions_data.json")
+        print("  - tribes_data.json")
+        print("  - gender_stats.json")
+        print("  - candidate_stats.json")
     
     return result.returncode
 

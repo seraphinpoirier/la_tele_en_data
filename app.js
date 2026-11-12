@@ -2,6 +2,7 @@
 let departmentsData = {};
 let regionsData = {};
 let genderStats = {};
+let candidateStats = {};
 let deptSortMode = 'gap-desc'; // 'gap-desc', 'gap-asc', 'alpha'
 let regionSortMode = 'gap-desc';
 let lockedDept = null;
@@ -13,8 +14,9 @@ async function init() {
     await loadData();
     populateDepartmentList();
     populateRegionList();
-    await createMaps();
     renderGenderCharts();
+    renderCandidateCharts();
+    await createMaps();
 }
 
 async function loadData() {
@@ -36,8 +38,16 @@ async function loadData() {
         if (!genderResponse.ok) throw new Error(`HTTP ${genderResponse.status}`);
         genderStats = (await genderResponse.json()).stats;
         console.log('Loaded gender statistics');
+
+        const candidateResponse = await fetch('candidate_stats.json');
+        if (!candidateResponse.ok) throw new Error(`HTTP ${candidateResponse.status}`);
+        candidateStats = await candidateResponse.json();
     } catch (error) {
         console.error('Error loading data:', error);
+        document.querySelectorAll('#gender-charts, #age-charts, #first-out-charts').forEach(container => {
+            container.textContent = 'Impossible de charger les données. Vérifiez que les fichiers JSON sont disponibles.';
+        });
+        throw error;
     }
 }
 
@@ -308,11 +318,13 @@ async function createMaps() {
 }
 
 const TRIBE_COLORS = {
-    Bleu: '#1f77b4',
-    Orange: '#ff7f0e',
-    Vert: '#2ca02c',
-    Violet: '#9467bd'
+    Bleu: '#00C2D1',
+    Orange: '#FE7F2D',
+    Vert: '#6DA34D',
+    Violet: '#827191'
 };
+
+const GENDER_COLORS = { F: '#1b998b', H: '#58355e' };
 
 function ensureDefs(svg) {
     let defs = svg.select('defs');
@@ -595,6 +607,207 @@ function renderGenderCharts() {
         
         container.appendChild(chart);
     });
+}
+
+function renderCandidateCharts() {
+    const ages = document.getElementById('age-charts');
+    renderAgeChart(ages, 'Âge de tous les candidats', candidateStats.ages.all, candidateStats.age_candidates.all);
+    renderAgeChart(ages, "Âge des candidats ayant atteint l'épreuve d'orientation", candidateStats.ages.orientation, candidateStats.age_candidates.orientation);
+
+    const firstOuts = candidateStats.first_outs;
+    const charts = document.getElementById('first-out-charts');
+    const genderEntries = [
+        { label: 'Femmes', value: firstOuts.gender.F, color: GENDER_COLORS.F },
+        { label: 'Hommes', value: firstOuts.gender.H, color: GENDER_COLORS.H }
+    ];
+    if (firstOuts.gender.unknown) {
+        genderEntries.push({ label: 'Non renseigné', value: firstOuts.gender.unknown, color: '#999999' });
+    }
+    const genderChart = document.createElement('div');
+    genderChart.className = 'first-out-gender-chart';
+    charts.appendChild(genderChart);
+    renderPie(genderChart, 'Répartition par genre des premiers éliminés', genderEntries);
+    for (const [gender, label] of [['F', 'femmes'], ['H', 'hommes']]) {
+        const section = document.createElement('section');
+        section.className = 'pie-comparison-section';
+        const heading = document.createElement('h3');
+        heading.textContent = `Répartition des âges : ${label}`;
+        const pair = document.createElement('div');
+        pair.className = 'pie-comparison';
+        section.append(heading, pair);
+        charts.appendChild(section);
+        renderPie(pair, gender === 'F' ? 'Premières éliminées' : 'Premiers éliminés', groupAges(firstOuts.ages[gender].counts), 'pie-comparison-chart');
+        renderPie(pair, 'Toutes les participations', groupAges(candidateStats.ages.all[gender].counts), 'pie-comparison-chart');
+    }
+}
+
+function groupAges(counts) {
+    const groups = [
+        { label: '18 à 25 ans', value: 0, color: '#0072B2' },
+        { label: '26 à 35 ans', value: 0, color: '#E69F00' },
+        { label: '36 à 45 ans', value: 0, color: '#009E73' },
+        { label: '46 ans et plus', value: 0, color: '#CC79A7' }
+    ];
+    let under18 = 0;
+    for (const [ageString, count] of Object.entries(counts)) {
+        const age = Number(ageString);
+        if (age < 18) under18 += count;
+        else if (age <= 25) groups[0].value += count;
+        else if (age <= 35) groups[1].value += count;
+        else if (age <= 45) groups[2].value += count;
+        else groups[3].value += count;
+    }
+    if (under18) groups.unshift({ label: 'Moins de 18 ans', value: under18, color: '#999999' });
+    return groups;
+}
+
+function chartCard(container, title, className = 'gender-chart') {
+    const card = document.createElement('div');
+    card.className = className;
+    const heading = document.createElement(className === 'pie-comparison-chart' ? 'h4' : 'h3');
+    heading.textContent = title;
+    card.appendChild(heading);
+    container.appendChild(card);
+    return card;
+}
+
+function renderAgeChart(container, title, stats, candidates) {
+    const card = chartCard(container, title);
+    const allAges = Object.keys(stats.all.counts).map(Number);
+    if (!allAges.length) {
+        card.append('Aucun âge disponible.');
+        return;
+    }
+    const width = 660, height = 300, margin = { top: 20, right: 20, bottom: 45, left: 45 };
+    const ages = d3.range(d3.min(allAges), d3.max(allAges) + 1);
+    const x = d3.scaleBand().domain(ages).range([margin.left, width - margin.right]).padding(0.1);
+    const y = d3.scaleLinear().domain([0, d3.max(Object.values(stats.all.counts))]).nice()
+        .range([height - margin.bottom, margin.top]);
+    const layout = document.createElement('div');
+    layout.className = 'age-chart-layout';
+    const graph = document.createElement('div');
+    graph.className = 'age-chart-graph';
+    const details = document.createElement('div');
+    details.className = 'age-details';
+    details.setAttribute('aria-live', 'polite');
+    details.textContent = 'Survolez ou sélectionnez un âge pour afficher les candidats.';
+    layout.append(graph, details);
+    card.appendChild(layout);
+    const svg = d3.select(graph).append('svg').attr('viewBox', `0 0 ${width} ${height}`)
+        .attr('class', 'stats-svg').attr('role', 'group').attr('aria-label', title);
+    const ticks = ages.filter(age => age % 5 === 0);
+    svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x).tickValues(ticks.length ? ticks : ages).tickFormat(d3.format('d')));
+    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('d')));
+    svg.append('text').attr('x', width / 2).attr('y', height - 5).attr('text-anchor', 'middle').text('Âge');
+    svg.append('text').attr('x', margin.left).attr('y', 12).text('Candidats');
+    const data = ages.map(age => {
+        const female = stats.F.counts[age] || 0;
+        const male = stats.H.counts[age] || 0;
+        return { age, F: female, H: male, unknown: (stats.all.counts[age] || 0) - female - male };
+    });
+    const colors = { ...GENDER_COLORS, unknown: '#999999' };
+    const keys = ['F', 'H'];
+    if (data.some(row => row.unknown > 0)) keys.push('unknown');
+    const stack = d3.stack().keys(keys)(data);
+    for (const series of stack) {
+        svg.append('g').attr('fill', colors[series.key]).selectAll('rect')
+            .data(series).join('rect')
+            .attr('x', segment => x(segment.data.age))
+            .attr('y', segment => y(segment[1]))
+            .attr('height', segment => y(segment[0]) - y(segment[1]))
+            .attr('width', x.bandwidth())
+            .append('title')
+            .text(segment => `${segment.data.age} ans : ${segment.data[series.key]} ${series.key === 'F' ? 'femmes' : series.key === 'H' ? 'hommes' : 'genre non renseigné'}`);
+    }
+    let lockedAge = null;
+    function showAge(age) {
+        const matches = candidates.filter(candidate => Number(candidate.age) === age);
+        details.replaceChildren();
+        const heading = document.createElement('strong');
+        heading.textContent = `${age} ans — ${matches.length} candidat${matches.length > 1 ? 's' : ''}`;
+        details.appendChild(heading);
+        const list = document.createElement('ul');
+        for (const candidate of matches) {
+            const item = document.createElement('li');
+            const placement = candidate.place == null ? 'classement inconnu' : `${candidate.place}e`;
+            item.textContent = `${candidate.nom} — ${candidate.saison} — ${placement}`;
+            list.appendChild(item);
+        }
+        details.appendChild(list);
+    }
+    function selectAge(age) {
+        lockedAge = lockedAge === age ? null : age;
+        hitAreas.attr('aria-pressed', row => row.age === lockedAge ? 'true' : 'false')
+            .classed('selected', row => row.age === lockedAge);
+        showAge(age);
+    }
+    const hitAreas = svg.append('g').selectAll('rect').data(data.filter(row => row.F + row.H + row.unknown > 0))
+        .join('rect')
+        .attr('x', row => x(row.age)).attr('y', margin.top)
+        .attr('width', x.bandwidth()).attr('height', height - margin.bottom - margin.top)
+        .attr('fill', 'transparent').attr('class', 'age-hit-area')
+        .attr('tabindex', 0).attr('role', 'button').attr('aria-pressed', 'false')
+        .attr('aria-label', row => `${row.age} ans : afficher les candidats`)
+        .on('pointerenter focus', (event, row) => { if (lockedAge === null) showAge(row.age); })
+        .on('click', (event, row) => selectAge(row.age))
+        .on('keydown', function(event, row) {
+            if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                selectAge(row.age);
+            }
+        });
+    const legend = document.createElement('div');
+    legend.className = 'stats-legend';
+    for (const [key, label, color] of [['all', 'Ensemble', '#333333'], ['F', 'Femmes', GENDER_COLORS.F], ['H', 'Hommes', GENDER_COLORS.H]]) {
+        const average = stats[key].average === null ? 'non disponible' : `${stats[key].average.toFixed(1).replace('.', ',')} ans`;
+        const item = document.createElement('span');
+        item.innerHTML = `<i style="background:${color}"></i>${label} : ${average} (n = ${stats[key].total})`;
+        legend.appendChild(item);
+    }
+    if (keys.includes('unknown')) {
+        const item = document.createElement('span');
+        item.innerHTML = '<i style="background:#999999"></i>Genre non renseigné';
+        legend.appendChild(item);
+    }
+    card.appendChild(legend);
+}
+
+function renderPie(container, title, entries, className = 'gender-chart') {
+    const card = chartCard(container, title, className);
+    const total = d3.sum(entries, entry => entry.value);
+    if (!total) {
+        card.append('Aucune donnée disponible.');
+        return;
+    }
+    const svg = d3.select(card).append('svg').attr('viewBox', '-120 -120 240 240')
+        .attr('class', 'pie-svg').attr('role', 'group').attr('aria-label', title);
+    const arc = d3.arc().innerRadius(0).outerRadius(105);
+    const hoverInfo = document.createElement('p');
+    hoverInfo.className = 'pie-hover-info';
+    hoverInfo.setAttribute('aria-live', 'polite');
+    hoverInfo.textContent = 'Survolez ou sélectionnez un secteur.';
+    const showSlice = slice => {
+        hoverInfo.textContent = `${slice.data.label} : ${slice.data.value} (${(slice.data.value / total * 100).toFixed(1).replace('.', ',')} %)`;
+    };
+    svg.selectAll('path').data(d3.pie().sort(null).value(entry => entry.value)(entries))
+        .join('path').attr('d', arc).attr('fill', slice => slice.data.color)
+        .attr('stroke', '#fff').attr('class', 'pie-slice')
+        .attr('tabindex', slice => slice.data.value ? 0 : null)
+        .attr('aria-label', slice => `${slice.data.label} : ${slice.data.value} (${(slice.data.value / total * 100).toFixed(1).replace('.', ',')} %)`)
+        .on('pointerenter focus click', (event, slice) => showSlice(slice))
+        .append('title')
+        .text(slice => `${slice.data.label} : ${slice.data.value} (${(slice.data.value / total * 100).toFixed(1)} %)`);
+    card.appendChild(hoverInfo);
+    const legend = document.createElement('div');
+    legend.className = 'stats-legend';
+    entries.forEach(entry => {
+        const item = document.createElement('span');
+        const percent = (entry.value / total * 100).toFixed(1).replace('.', ',');
+        item.innerHTML = `<i style="background:${entry.color}"></i>${entry.label} : ${entry.value} (${percent} %)`;
+        legend.appendChild(item);
+    });
+    card.appendChild(legend);
 }
 
 window.addEventListener('load', init);
